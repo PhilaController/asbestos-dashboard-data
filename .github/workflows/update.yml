@@ -1,0 +1,46 @@
+name: Update
+
+on:
+  schedule:
+    - cron: 0 3 * * 1-5
+  push:
+    paths:
+      - .github/workflows/update.yml
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - name: Run image
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: "1.1.11"
+      - name: Install dependencies
+        run: sudo apt-get install -y libspatialindex-dev
+      - name: Run update
+        run: |
+          poetry install
+          git pull origin master
+          poetry run asbestos-dashboard-data update
+        env:
+          AWS_KEY: ${{ secrets.AWS_KEY }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
+      - name: Commit files
+        continue-on-error: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -a -m "Add update changes"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
