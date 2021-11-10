@@ -107,10 +107,12 @@ def extract_asbestos_data(filename=None):
     # Rename and trim
     data = data.rename(columns=COLUMNS)[list(COLUMNS.values())]
 
-    # Trim to school district and specified date range
-    school_district = trim_to_school_district(data).query(
-        f"application_date >= '01/01/2016'"
-    )
+    # Trim to school district
+    school_district = trim_to_school_district(data)
+
+    # Trim to 2016 onwards
+    sel = pd.to_datetime(school_district["application_date"]) >= "01-01-2016"
+    school_district = school_district.loc[sel]
 
     # Log
     logger.info(f"Size of original database: {len(data)}")
@@ -260,6 +262,11 @@ def transform(data):
         columns={"street_address": "facility_address"}
     )
 
+    # Merge in the permit urls
+    if "permit_url" not in gdf.columns:
+        urls = pd.read_csv(DATA_DIR / "interim" / "permit-number-urls.csv")
+        gdf = gdf.merge(urls, on="permit_number", how="left")
+
     schools = load_schools_database()
     data = match_datasets(gdf, schools)
 
@@ -290,6 +297,8 @@ def transform(data):
             "school_address",
             "school_website",
             "year_opened",
+            "year_closed",
+            "permit_url",
             "lat",
             "lng",
         ]
@@ -303,14 +312,21 @@ def transform(data):
         geo_coords, on="school_name", how="left"
     )
 
-    #
+    # Append closed
+    closed = data["year_closed"].notnull()
+    data.loc[closed, "school_name"] += " (Closed)"
+
+    # Return
     return gpd.GeoDataFrame(
         data, geometry=gpd.points_from_xy(data["lng"], data["lat"]), crs="EPSG:4326"
     ).drop(labels=["lat", "lng"], axis=1)
 
 
-def load_asbestos_data(filename=None, ignore_failure=False):
+def load_asbestos_data(filename=None, ignore_failure=False, processed=False):
     """Load the data from the raw .xlsx file."""
+
+    if processed:
+        return gpd.read_file(DATA_DIR / "processed" / "asbestos-data.geojson")
 
     # Extract the data
     return (
@@ -443,7 +459,7 @@ def match_datasets(data, schools):
             exact = pd.concat([exact, exact_matches])
 
     # Remove known missing
-    left = left.loc[~left.facility_name.isin(known_missing)]
+    left = left.loc[~left.facility_name.isin(known_missing.facility_name)]
 
     if len(left):
         logger.info("New entries without exact matches; proceeding to fuzzy matches")

@@ -19,6 +19,7 @@ def load_schools_database():
         "School Year",
         "Abbreviated Name",
         "Year Opened",
+        "Year Closed",
     ]
 
     # Loop over the data files
@@ -55,10 +56,12 @@ def load_schools_database():
                 "School Year": "school_year",
                 "Abbreviated Name": "school_abbreviation",
                 "Year Opened": "year_opened",
+                "Year Closed": "year_closed",
             }
         )
         .assign(
             school_level=lambda df: df.school_level.str.lower(),
+            year_closed=lambda df: df.year_closed.replace({"open": np.nan}),
             lat=lambda df: df["gps_location"]
             .str.split(",")
             .apply(lambda x: float(x[0]) if not np.isscalar(x) else x),

@@ -13,6 +13,7 @@ from .scrape import DatabaseScraper, scrape_permit_urls
 SCHOOL_COLUMNS = [
     "school_name",
     "school_level",
+    "year_closed",
     "school_website",
     "school_address",
     "year_opened",
@@ -80,15 +81,25 @@ def update(ndays=30):
         permit_numbers = data["permit_number"].unique()
 
     # Get the permit URLs
-    logger.info(f"Scraping permit URL data for {len(permit_numbers)} permits")
-    url_data = scrape_permit_urls(permit_numbers)
-    logger.info("  ...done")
+    if len(permit_numbers):
+        logger.info(f"Scraping permit URL data for {len(permit_numbers)} permits")
+        url_data = scrape_permit_urls(permit_numbers)
+        logger.info("  ...done")
 
-    # Merge
-    out = pd.merge(data, url_data, on="permit_number", how="left", suffixes=("", "_y"))
-    if "permit_url_y" in out.columns:
-        out["permit_url"] = out["permit_url"].fillna(out["permit_url_y"])
-        out = out.drop(labels=["permit_url_y"], axis=1)
+        # Merge
+        out = pd.merge(
+            data, url_data, on="permit_number", how="left", suffixes=("", "_y")
+        )
+        if "permit_url_y" in out.columns:
+            out["permit_url"] = out["permit_url"].fillna(out["permit_url_y"])
+            out = out.drop(labels=["permit_url_y"], axis=1)
+
+        # Save
+        out[["permit_url", "permit_number"]].drop_duplicates().to_csv(
+            DATA_DIR / "interim" / "permit-number-urls.csv", index=False
+        )
+    else:
+        out = data
 
     assert len(out) == len(data)
     assert out.duplicated().sum() == 0
@@ -100,7 +111,7 @@ def update(ndays=30):
 def _run_etl(df):
 
     # Save asbestos to AWS
-    asbestos = pd.DataFrame(df.drop(labels=["geometry"] + SCHOOL_COLUMNS[2:], axis=1))
+    asbestos = pd.DataFrame(df.drop(labels=["geometry"] + SCHOOL_COLUMNS[3:], axis=1))
     upload_to_s3(asbestos.to_json(orient="records"), "asbestos-data.json")
 
     # And save locally
@@ -120,4 +131,5 @@ def etl():
 
     # Load the asbestos data
     df = load_asbestos_data()
+    assert df.duplicated().sum() == 0
     _run_etl(df)
