@@ -7,7 +7,7 @@ from . import DATA_DIR
 from .aws import upload_to_s3
 from .data import load_asbestos_data
 from .data.asbestos import geocode, transform
-from .scrape import DatabaseScraper, scrape_permit_urls
+from .scrape import DatabaseScraper, scrape_permit_urls, update_permit_urls
 
 # School columns
 SCHOOL_COLUMNS = [
@@ -74,32 +74,7 @@ def update(ndays=30):
     data = data.drop_duplicates()
 
     # Get the permit numbers too
-    if "permit_url" in data.columns:
-        missing = data["permit_url"].isnull()
-        permit_numbers = data.loc[missing, "permit_number"].unique()
-    else:
-        permit_numbers = data["permit_number"].unique()
-
-    # Get the permit URLs
-    if len(permit_numbers):
-        logger.info(f"Scraping permit URL data for {len(permit_numbers)} permits")
-        url_data = scrape_permit_urls(permit_numbers)
-        logger.info("  ...done")
-
-        # Merge
-        out = pd.merge(
-            data, url_data, on="permit_number", how="left", suffixes=("", "_y")
-        )
-        if "permit_url_y" in out.columns:
-            out["permit_url"] = out["permit_url"].fillna(out["permit_url_y"])
-            out = out.drop(labels=["permit_url_y"], axis=1)
-
-        # Save
-        out[["permit_url", "permit_number"]].drop_duplicates().to_csv(
-            DATA_DIR / "interim" / "permit-number-urls.csv", index=False
-        )
-    else:
-        out = data
+    out = update_permit_urls(data)
 
     assert len(out) == len(data)
     assert out.duplicated().sum() == 0

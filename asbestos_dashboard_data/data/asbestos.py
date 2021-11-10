@@ -238,6 +238,7 @@ def geocode(df, address_column="facility_address", ignore_failure=False):
 
 def transform(data):
     """Transform the input data."""
+    from ..scrape import update_permit_urls
 
     # Add project length
     data["project_length"] = (
@@ -262,11 +263,7 @@ def transform(data):
         columns={"street_address": "facility_address"}
     )
 
-    # Merge in the permit urls
-    if "permit_url" not in gdf.columns:
-        urls = pd.read_csv(DATA_DIR / "interim" / "permit-number-urls.csv")
-        gdf = gdf.merge(urls, on="permit_number", how="left")
-
+    # Match!
     schools = load_schools_database()
     data = match_datasets(gdf, schools)
 
@@ -298,7 +295,6 @@ def transform(data):
             "school_website",
             "year_opened",
             "year_closed",
-            "permit_url",
             "lat",
             "lng",
         ]
@@ -312,9 +308,20 @@ def transform(data):
         geo_coords, on="school_name", how="left"
     )
 
-    # Append closed
+    # Append closed to school name
     closed = data["year_closed"].notnull()
     data.loc[closed, "school_name"] += " (Closed)"
+
+    # Merge in the existing permit urls
+    if "permit_url" not in data.columns:
+        urls = pd.read_csv(DATA_DIR / "interim" / "permit-number-urls.csv")
+        data = data.merge(urls, on="permit_number", how="left")
+
+    # Update any missing urls
+    data = update_permit_urls(data)
+
+    # Fix school level
+    data['school_level'] = data['school_level'].replace({'elementarymiddle': 'elementary-middle'})
 
     # Return
     return gpd.GeoDataFrame(
