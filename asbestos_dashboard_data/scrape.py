@@ -21,6 +21,25 @@ from asbestos_dashboard_data import DATA_DIR
 from .data.asbestos import extract_asbestos_data
 
 
+def load_chromedriver_path():
+    """Try to find the latest install chromedriver path"""
+
+    try:
+        # Try to install the path
+        path = ChromeDriverManager().install()
+    except:
+        chromedriver_path = Path("~/.wdm/drivers/chromedriver/mac64/").expanduser()
+        if not chromedriver_path.exists():
+            raise ValueError("Cannot find working chromedriver installation")
+
+        last_modified = sorted(
+            [f for f in chromedriver_path.glob("*")], key=os.path.getmtime
+        )[-1]
+        path = str(last_modified / "chromedriver")
+
+    return path
+
+
 @contextmanager
 def wait_for_new_window(driver, timeout=10):
     handles_before = driver.window_handles
@@ -50,7 +69,7 @@ def get_webdriver(browser, dirname, debug=False):
         options.add_experimental_option("prefs", profile)
 
         # Initialize with options
-        service = Service(ChromeDriverManager().install())
+        service = Service(load_chromedriver_path())
         driver = webdriver.Chrome(service=service, options=options)
     else:
         raise ValueError("Unknown browser type, should be 'chrome'")
@@ -74,6 +93,10 @@ class DatabaseScraper:
 
         self.end_date = today.strftime("%m-%d-%Y")
         self.start_date = start.strftime("%m-%d-%Y")
+
+        logger.info(
+            f"Downloading raw asbestos data for {self.start_date} to {self.end_date}"
+        )
 
     def _init(self, dirname):
         """Initialization function."""
@@ -230,7 +253,7 @@ def scrape_permit_urls(permit_numbers, log_freq=10):
     # Get the driver
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    service = Service(ChromeDriverManager().install())
+    service = Service(load_chromedriver_path())
     driver = webdriver.Chrome(service=service, options=options)
 
     out = []

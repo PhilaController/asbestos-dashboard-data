@@ -69,6 +69,9 @@ def update(ndays=30):
         logger.info("No new data found")
         data = old_data.copy()
 
+    # Make sure there are no duplicates
+    data = data.drop_duplicates()
+
     # Get the permit numbers too
     if "permit_url" in data.columns:
         missing = data["permit_url"].isnull()
@@ -88,6 +91,7 @@ def update(ndays=30):
         out = out.drop(labels=["permit_url_y"], axis=1)
 
     assert len(out) == len(data)
+    assert out.duplicated().sum() == 0
 
     # Run the etl
     _run_etl(out)
