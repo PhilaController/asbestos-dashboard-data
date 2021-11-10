@@ -1,6 +1,6 @@
 # asbestos-dashboard-data
 
-Python toolkit for preprocessing data for the Philadelphia City Controller's School District Asbestos Dashboard.
+Python toolkit for preprocessing data for the Philadelphia City Controller's [School District Asbestos Dashboard](https://controller.phila.gov/philadelphia-audits/interactive-asbestos-dashboard/#/).
 
 The main command for pulling the latest data from the [Air Management Services online portal](https://www.citizenserve.com/philagov) and updating the dashboard is:
 
