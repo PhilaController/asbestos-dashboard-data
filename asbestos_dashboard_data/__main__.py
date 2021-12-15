@@ -7,7 +7,7 @@ from . import DATA_DIR
 from .aws import upload_to_s3
 from .data import load_asbestos_data
 from .data.asbestos import geocode, transform
-from .scrape import DatabaseScraper, scrape_permit_urls, update_permit_urls
+from .scrape import DatabaseScraper, update_permit_urls
 
 # School columns
 SCHOOL_COLUMNS = [
@@ -52,7 +52,6 @@ def update(ndays=30):
         ].values
 
     # Get the new permits
-
     if new_sel.sum():
 
         logger.info(f"New data includes {new_sel.sum()} entries")
