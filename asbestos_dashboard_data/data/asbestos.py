@@ -314,6 +314,7 @@ def transform(data):
 
     # Merge in the existing permit urls
     if "permit_url" not in data.columns:
+
         urls = pd.read_csv(DATA_DIR / "interim" / "permit-number-urls.csv")
         data = data.merge(urls, on="permit_number", how="left")
 
@@ -321,7 +322,9 @@ def transform(data):
     data = update_permit_urls(data)
 
     # Fix school level
-    data['school_level'] = data['school_level'].replace({'elementarymiddle': 'elementary-middle'})
+    data["school_level"] = data["school_level"].replace(
+        {"elementarymiddle": "elementary-middle"}
+    )
 
     # Return
     return gpd.GeoDataFrame(
