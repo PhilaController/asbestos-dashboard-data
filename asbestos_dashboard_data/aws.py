@@ -10,22 +10,11 @@ from .data import load_schools_database
 def upload_to_s3(data, filename):
     """Upload data to a public AWS s3 bucket."""
 
-    # Load the credentials and check
+    # Load the credentials
     load_dotenv(find_dotenv())
-    ACCESS_KEY_ID = os.getenv("AWS_KEY")
-    SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_KEY")
-
-    if ACCESS_KEY_ID is None:
-        raise ValueError("Define 'AWS_KEY' environment variable")
-    if SECRET_ACCESS_KEY is None:
-        raise ValueError("Define 'AWS_SECRET_KEY' enviroment variable")
 
     # Initialize the s3 resource
-    s3_resource = boto3.resource(
-        "s3",
-        aws_access_key_id=ACCESS_KEY_ID,
-        aws_secret_access_key=SECRET_ACCESS_KEY,
-    )
+    s3_resource = boto3.resource("s3")
 
     # Write to a buffer
     buffer = StringIO()

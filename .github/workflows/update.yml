@@ -31,8 +31,8 @@ jobs:
           git pull origin main 
           poetry run asbestos-dashboard-data update
         env:
-          AWS_KEY: ${{ secrets.AWS_KEY }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
       - name: Commit files
         continue-on-error: true
