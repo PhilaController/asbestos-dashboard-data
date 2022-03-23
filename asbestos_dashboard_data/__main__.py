@@ -91,8 +91,14 @@ def _run_etl(df):
     # And save locally
     df.to_file(DATA_DIR / "processed" / "asbestos-data.geojson", driver="GeoJSON")
 
-    # Save schools to AWS
+    # Create the schools database
     schools = df[SCHOOL_COLUMNS + ["geometry"]].drop_duplicates()
+
+    # Remove duplicates that have only different geometries
+    duplicated_schools = schools.drop(columns=["geometry"]).duplicated()
+    schools = schools.loc[~duplicated_schools]
+
+    # Save to AWS
     upload_to_s3(schools.to_json(), "schools.json")
 
     # And save locally
