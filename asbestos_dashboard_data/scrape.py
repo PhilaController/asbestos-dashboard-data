@@ -215,14 +215,14 @@ def _get_url(driver, permit_number):
     # Initial dropdown for permits
     dropdown_selector = "select.form-control"
     wait_for_element(driver, dropdown_selector)
-    dropdown = driver.find_element_by_css_selector(dropdown_selector)
+    dropdown = driver.find_element(By.CSS_SELECTOR, dropdown_selector)
     dropdown_select = Select(dropdown)
     dropdown_select.select_by_visible_text("Permits")
 
     # Get the input element for the permit number
     input_selector = "#PermitNumber"
     wait_for_element(driver, input_selector)
-    input_tag = driver.find_element_by_css_selector(input_selector)
+    input_tag = driver.find_element(By.CSS_SELECTOR, input_selector)
 
     # Clear any existing entry
     input_tag.clear()
@@ -231,12 +231,12 @@ def _get_url(driver, permit_number):
     input_tag.send_keys(permit_number)
 
     # Click select
-    driver.find_element_by_css_selector("#submitRow button").click()
+    driver.find_element(By.CSS_SELECTOR, "#submitRow button").click()
 
     # The link
     link_selector = "#resultContent > table > tbody > tr > td:nth-child(1) > a"
     wait_for_element(driver, link_selector)
-    a = driver.find_element_by_css_selector(link_selector)
+    a = driver.find_element(By.CSS_SELECTOR, link_selector)
     url = a.get_attribute("href")
 
     # Extract
