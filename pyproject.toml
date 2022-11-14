@@ -21,6 +21,7 @@ phl-courts-scraper = "^0.1.1"
 ais2gpd = "^1.0.5"
 numpy = "1.22.0"
 sparse-dot-topn = "^0.3.3"
+python-levenshtein = "0.12.2"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
