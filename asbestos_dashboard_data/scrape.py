@@ -20,6 +20,16 @@ from . import DATA_DIR
 from .data.asbestos import extract_asbestos_data
 
 
+@contextmanager
+def cwd(path):
+    oldpwd = os.getcwd()
+    os.chdir(path)
+    try:
+        yield
+    finally:
+        os.chdir(oldpwd)
+
+
 def load_chromedriver_path():
     """Try to find the latest install chromedriver path"""
 
@@ -108,95 +118,100 @@ class DatabaseScraper:
 
         with tempfile.TemporaryDirectory() as tmpdir:
 
-            # Initialize if we need to
-            if not hasattr(self, "driver"):
-                self._init(tmpdir)
+            # Change the path
+            with cwd(tmpdir):
 
-            self.driver.get("https://citizenserve.com/philagov")
+                # Initialize if we need to
+                if not hasattr(self, "driver"):
+                    self._init(tmpdir)
 
-            link_text = "Reports"
-            WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, link_text))
-            )
+                self.driver.get("https://citizenserve.com/philagov")
 
-            a = self.driver.find_element(By.PARTIAL_LINK_TEXT, link_text)
-            a.click()
+                link_text = "Reports"
+                WebDriverWait(self.driver, 10).until(
+                    EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, link_text))
+                )
 
-            link_text = "Electronic Asbestos Notifications Report"
-            WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, link_text))
-            )
-
-            with wait_for_new_window(self.driver):
                 a = self.driver.find_element(By.PARTIAL_LINK_TEXT, link_text)
                 a.click()
 
-            self.driver.switch_to.window(self.driver.window_handles[1])
-            WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located((By.CSS_SELECTOR, "#Param_0"))
-            )
-            start_input = self.driver.find_element(By.CSS_SELECTOR, "#Param_0")
-            end_input = self.driver.find_element(By.CSS_SELECTOR, "#Param_1")
-
-            start_input.clear()
-            start_input.send_keys(self.start_date)
-            end_input.clear()
-            end_input.send_keys(self.end_date)
-
-            self.driver.find_element(By.LINK_TEXT, "SUBMIT").click()
-            WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located(
-                    (By.CSS_SELECTOR, ".icon-external-link")
+                link_text = "Electronic Asbestos Notifications Report"
+                WebDriverWait(self.driver, 10).until(
+                    EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, link_text))
                 )
-            )
 
-            self.driver.execute_script("javascript:exportToExcel();")
-            try:
-                download_dir = Path(tmpdir)
-                # Initialize
-                excel_files = list(download_dir.glob("*.xlsx"))
-                total_sleep = 0
-                while not len(excel_files) and total_sleep <= 20:
-                    time.sleep(1)
-                    total_sleep += 1
+                with wait_for_new_window(self.driver):
+                    a = self.driver.find_element(By.PARTIAL_LINK_TEXT, link_text)
+                    a.click()
+
+                self.driver.switch_to.window(self.driver.window_handles[1])
+                WebDriverWait(self.driver, 10).until(
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "#Param_0"))
+                )
+                start_input = self.driver.find_element(By.CSS_SELECTOR, "#Param_0")
+                end_input = self.driver.find_element(By.CSS_SELECTOR, "#Param_1")
+
+                start_input.clear()
+                start_input.send_keys(self.start_date)
+                end_input.clear()
+                end_input.send_keys(self.end_date)
+
+                self.driver.find_element(By.LINK_TEXT, "SUBMIT").click()
+                WebDriverWait(self.driver, 10).until(
+                    EC.visibility_of_element_located(
+                        (By.CSS_SELECTOR, ".icon-external-link")
+                    )
+                )
+
+                self.driver.execute_script("javascript:exportToExcel();")
+                excel_file = None
+                try:
+                    download_dir = Path(tmpdir)
+                    # Initialize
                     excel_files = list(download_dir.glob("*.xlsx"))
+                    total_sleep = 0
+                    while not len(excel_files) and total_sleep <= 20:
+                        time.sleep(1)
+                        total_sleep += 1
+                        excel_files = list(download_dir.glob("*.xlsx"))
 
-                if len(excel_files):
+                    if len(excel_files):
 
-                    # Extract the clean data
-                    excel_file = excel_files[0]
-                    clean_data = extract_asbestos_data(filename=excel_file)
+                        # Extract the clean data
+                        excel_file = excel_files[0]
+                        clean_data = extract_asbestos_data(filename=excel_file)
 
-                    # The existing latest
-                    raw_data_files = sorted(
-                        Path(DATA_DIR / "raw").glob("Citizen*.xlsx"),
-                        key=lambda f: os.path.getmtime(f),
-                    )
-                    filename = raw_data_files[-1]
+                        # The existing latest
+                        raw_data_files = sorted(
+                            Path(DATA_DIR / "raw").glob("Citizen*.xlsx"),
+                            key=lambda f: os.path.getmtime(f),
+                        )
+                        filename = raw_data_files[-1]
 
-                    # Combine and save
-                    logger.info(
-                        "Saving new raw database file to data/raw/CitizenserveReport-Latest.xlsx"
-                    )
-                    raw_data = pd.concat(
-                        [
-                            pd.read_excel(excel_file, sheet_name=0),
-                            pd.read_excel(filename, sheet_name=0),
-                        ]
-                    ).drop_duplicates(subset=["Permit #"])
-                    raw_data.to_excel(
-                        DATA_DIR / "raw" / "CitizenserveReport-Latest.xlsx", index=False
-                    )
+                        # Combine and save
+                        logger.info(
+                            "Saving new raw database file to data/raw/CitizenserveReport-Latest.xlsx"
+                        )
+                        raw_data = pd.concat(
+                            [
+                                pd.read_excel(excel_file, sheet_name=0),
+                                pd.read_excel(filename, sheet_name=0),
+                            ]
+                        ).drop_duplicates(subset=["Permit #"])
+                        raw_data.to_excel(
+                            DATA_DIR / "raw" / "CitizenserveReport-Latest.xlsx",
+                            index=False,
+                        )
 
-                    # Return
-                    return clean_data
-                else:
-                    raise ValueError("Excel download failed")
-            finally:
+                        # Return
+                        return clean_data
+                    else:
+                        raise ValueError("Excel download failed")
+                finally:
 
-                # Remove the file after we are done!
-                if excel_file is not None and excel_file.exists():
-                    excel_file.unlink()
+                    # Remove the file after we are done!
+                    if excel_file is not None and excel_file.exists():
+                        excel_file.unlink()
 
 
 def wait_for_element(driver, css_selector, time_limit=10):
