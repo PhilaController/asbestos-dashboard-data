@@ -1,0 +1,479 @@
+ulcs_code,school_name,school_level,school_address,school_website,school_abbreviation,year_opened,year_closed,geometry
+1010,John Bartram High School,high,2401 S 67TH ST,http://philasd.org/bartram,bartram,1939.0,,POINT (-75.23405562 39.92149737)
+1020,West Philadelphia High School,high,4901 CHESTNUT ST,http://philasd.org/wphs,west philadelphia,1911.0,,POINT (-75.219654 39.95811)
+1030,High School of the Future,high,4021 PARKSIDE AVE,http://philasd.org/sof,hs of future,2006.0,,POINT (-75.2047566 39.97465766)
+1050,Paul Robeson High School for Human Services,high,4125 LUDLOW ST,http://philasd.org/robeson,robeson,2003.0,,POINT (-75.20476311 39.95679553)
+1100,William L. Sayre High School,high,5800 WALNUT ST,http://philasd.org/sayre,sayre,1950.0,,POINT (-75.23859405 39.95759354)
+1130,William T. Tilden School,middle,6601 ELMWOOD AVE,http://philasd.org/tilden,tilden,1927.0,,POINT (-75.23227632 39.92093619)
+1190,Motivation High School,high,5900 BALTIMORE AVE,http://philasd.org/motivationhs,motivation,2004.0,,POINT (-75.24184422 39.94453199)
+1200,John Barry School,elementary-middle,5900 RACE ST,http://philasd.org/barry,barry,2007.0,,POINT (-75.23860376 39.96437494)
+1230,William C. Bryant School,elementary-middle,6001 CEDAR AVE,http://philasd.org/bryant,bryant,1903.0,,POINT (-75.243691 39.952687)
+1250,Joseph W. Catharine School,elementary,6600 CHESTER AVE,http://philasd.org/catharine,catharine,1937.0,,POINT (-75.239911 39.927435)
+1260,Benjamin B. Comegys School,elementary-middle,5100 GREENWAY AVE,http://philasd.org/comegys,comegys,1911.0,,POINT (-75.216289 39.94052)
+1280,Sadie Alexander School,elementary-middle,4209 SPRUCE ST,http://philasd.org/pennalexander,penn alexander,2001.0,,POINT (-75.208187 39.953099)
+1290,Andrew Hamilton School,elementary-middle,5640 SPRUCE ST,http://philasd.org/hamilton,hamilton,1970.0,,POINT (-75.235543 39.955438)
+1300,Avery D. Harrington School,elementary-middle,5300 BALTIMORE AVE,http://philasd.org/harrington,harrington,1927.0,,POINT (-75.23059508 39.94736517)
+1340,Henry C. Lea School,elementary-middle,4700 LOCUST ST,http://philasd.org/lea,lea,1914.0,,POINT (-75.216347 39.954515)
+1350,William C. Longstreth School,elementary-middle,5700 WILLOWS AVE,http://philasd.org/longstreth,longstreth,1971.0,,POINT (-75.23237316 39.94090823)
+1360,Morton McMichael School,elementary-middle,3543 FAIRMOUNT AVE,http://philasd.org/mcmichael,mcmichael,1963.0,,POINT (-75.19411487 39.96619727)
+1370,S. Weir Mitchell School,elementary-middle,5500 KINGSESSING AVE,http://philasd.org/mitchell,mitchell,1916.0,,POINT (-75.223291 39.93681427)
+1380,Thomas G. Morton School,elementary,2501 S 63RD ST,http://philasd.org/morton,morton,1971.0,,POINT (-75.22690015 39.92346826)
+1390,Samuel Powel School,elementary,301 N 36TH ST,http://philasd.org/powel,powel,1961.0,,POINT (-75.19370686 39.9599324)
+1400,John M. Patterson School,elementary,7000 BUIST AVE,http://philasd.org/patterson,patterson,1921.0,,POINT (-75.236762 39.916095)
+1410,James Rhoads School,elementary-middle,4901 PARRISH ST,http://philasd.org/rhoads,rhoads,1960.0,,POINT (-75.220063 39.967339)
+1420,Martha Washington School,elementary-middle,766 N 44TH ST,http://philasd.org/mwashington,"washington, martha",1930.0,,POINT (-75.211179 39.966206)
+1440,Penrose School,elementary-middle,2515 S 78TH ST,http://philasd.org/penrose,penrose,1971.0,,POINT (-75.24865833 39.90692358)
+1460,Add B. Anderson School,elementary-middle,1034 S 60TH ST,http://philasd.org/anderson,anderson,1963.0,,POINT (-75.245717 39.946726)
+1470,Alain Locke School,elementary-middle,4550 HAVERFORD AVE,http://philasd.org/locke,locke,1964.0,,POINT (-75.21245097 39.96262376)
+1490,Rudolph Blankenburg School,elementary-middle,4600 W GIRARD AVE,http://philasd.org/blankenburg,blankenburg,1925.0,,POINT (-75.21388868 39.97296312)
+1580,Middle Years Alternative School,middle,4725 FAIRMOUNT AVE,http://philasd.org/mya,mya,1972.0,,POINT (-75.21546704 39.96425379)
+2000,South Philadelphia High School,high,2101 S BROAD ST,http://philasd.org/sphs,south philadelphia,1957.0,,POINT (-75.1691065 39.9238987)
+2010,Benjamin Franklin High School,high,550 N BROAD ST,http://philasd.org/bfhs,franklin hs,1958.0,,POINT (-75.16164 39.96353)
+2020,High School for Creative and Performing Arts,high,901 S BROAD ST,http://philasd.org/capa,capa,1997.0,,POINT (-75.16548375 39.93941992)
+2050,Science Leadership Academy Middle School,middle,3600 MARKET ST,http://philasd.org/slams,slams,2016.0,,POINT (-75.19362923 39.96299243)
+2140,Julia R. Masterman School,middle-high,1699 SPRING GARDEN ST,http://philasd.org/masterman,masterman,1933.0,,POINT (-75.16620758 39.96320031)
+2160,Furness High School,high,1900 S 3RD ST,http://philasd.org/furness,furness,1912.0,,POINT (-75.150585 39.923762)
+2190,D. Newlin Fell School,elementary-middle,900 W OREGON AVE,http://philasd.org/fell,fell,1924.0,,POINT (-75.16300858 39.91558638)
+2210,Bache-Martin School,elementary-middle,2201 BROWN ST,http://philasd.org/bachemartin,bache-martin,1906.0,,POINT (-75.17384692 39.96967782)
+2240,F. Amedee Bregy School,elementary-middle,1700 BIGLER ST,http://philasd.org/bregy,bregy,1923.0,,POINT (-75.176674 39.914699)
+2260,George W. Childs School,elementary-middle,1599 WHARTON ST,http://philasd.org/childs,childs,1927.0,,POINT (-75.170493 39.934637)
+2290,Franklin Learning Center,high,616 N 15TH ST,http://philasd.org/flc,flc,1978.0,,POINT (-75.162753 39.965049)
+2310,Camelot Academy,middle-high,1435 N 26TH ST,http://cameloteducation.org/our-schools/transitional-schools/camelot-academy-of-philadelphia,camelot,2004.0,,POINT (-75.177658 39.978134)
+2320,Stephen Girard School,elementary,1800 SNYDER AVE,http://philasd.org/girard,girard,1959.0,,POINT (-75.176611 39.925059)
+2340,General George A. McCall School,elementary-middle,325 S 7TH ST,http://philasd.org/mccall,mccall,1909.0,,POINT (-75.15318 39.944635)
+2370,Delaplaine McDaniel School,elementary-middle,1801 S 22ND ST,http://philasd.org/mcdaniel,mcdaniel,1937.0,,POINT (-75.181793 39.929592)
+2380,William M. Meredith School,elementary-middle,725 S 5TH ST,http://philasd.org/meredith,meredith,1931.0,,POINT (-75.15113339 39.93974936)
+2390,Robert Morris School,elementary-middle,2600 W THOMPSON ST,http://philasd.org/morris,morris,1964.0,,POINT (-75.17866 39.975439)
+2410,Girard Academic Music Program,middle-high,2136 W RITNER ST,http://philasd.org/gamp,gamp,1914.0,,POINT (-75.18256439 39.92210463)
+2450,Edwin M. Stanton School,elementary-middle,901 S. 17TH ST.,http://philasd.org/emstanton,stanton,1926.0,,POINT (-75.171017 39.940503)
+2470,Albert M. Greenfield School,elementary-middle,2200 CHESTNUT ST,http://philasd.org/greenfield,greenfield,1970.0,,POINT (-75.17739206 39.95227234)
+2480,Chester A. Arthur School,elementary-middle,2000 CATHARINE ST,http://philasd.org/arthur,arthur,1964.0,,POINT (-75.17569882 39.94190083)
+2490,Laura W. Waring School,elementary-middle,1801 GREEN ST,http://philasd.org/waring,waring,1956.0,,POINT (-75.1677006 39.96491939)
+2510,Andrew Jackson School,elementary-middle,1213 S 12TH ST,http://philasd.org/jackson,jackson,1925.0,,POINT (-75.163481 39.934623)
+2520,Abram S. Jenks School,elementary,2501 S 13TH ST,http://philasd.org/asjenks,"jenks, a.s",1897.0,,POINT (-75.168367 39.918773)
+2530,Phila. Juv. Justice Services Ctr. School,middle-high,91 N 48TH ST,http://philasd.org/pjjsc,pjjscs,2012.0,,POINT (-75.21572624 39.96136565)
+2540,Francis S. Key School,elementary,2230 S 8TH ST,http://philasd.org/key,key,1889.0,,POINT (-75.1601961 39.9213857)
+2580,Eliza B. Kirkbride School,elementary-middle,1501 S 7TH ST,http://philasd.org/kirkbride,kirkbride,1926.0,,POINT (-75.156466 39.93002)
+2590,George W. Nebinger School,elementary-middle,601 CARPENTER ST,http://philasd.org/nebinger,nebinger,1925.0,,POINT (-75.15383 39.936694)
+2620,Academy at Palumbo,high,1100 CATHARINE ST,http://philasd.org/palumbo,palumbo,2006.0,,POINT (-75.16194915 39.94019787)
+2630,George W. Sharswood School,elementary-middle,2300 S 2ND ST,http://philasd.org/sharswood,sharswood,1906.0,,POINT (-75.15055053 39.91935714)
+2640,Southwark School,elementary-middle,1835 S 9TH ST,http://philasd.org/southwark,southwark,1905.0,,POINT (-75.16053168 39.92637775)
+2650,Science Leadership Academy,high,1482 GREEN ST,http://philasd.org/sla,sla,2006.0,,POINT (-75.162516 39.963701)
+2670,Constitution High School,high,18 S 7TH ST,http://philasd.org/constitutionhs,constitution,2006.0,,POINT (-75.152336 39.950252)
+2680,The Science Leadership Academy at Beeber,middle-high,5925 MALVERN AVE,http://philasd.org/slabeeber,sla at beeber,2014.0,,POINT (-75.24192008 39.98610221)
+2690,John H. Taggart School,elementary-middle,400 W PORTER ST,http://philasd.org/taggart,taggart,1917.0,,POINT (-75.15452237 39.91721223)
+2720,Vare-Washington School,elementary-middle,1198 S 5TH ST,http://philasd.org/vare,vare-washington,1903.0,,POINT (-75.15252649 39.93427949)
+3040,Excel Middle Years Academy,middle,4300 WESTMINSTER AVE,https://cameloteducation.org/our-schools/transitional-schools/excel-middle-years-academy/,excel middle,2017.0,,POINT (-75.18402464 39.99074371)
+3190,Crossroads at Hunting Park,elementary,4224 N FRONT ST,http://philasd.org/crossroads-huntingpark,crossroads @hp,2011.0,,POINT (-75.12599679 40.01425525)
+3240,Liguori Academy-Fortis,high,1952 E ALLEGHENY AVE,https://www.liguoriacademy.org/fortis-program,liguori fortis,2017.0,,POINT (-75.111842 39.994204)
+3290,Excel Academy South,high,4641 ROOSEVELT BLVD,http://cameloteducation.org/our-schools/accelerated-schools/excel-academy-south,excel south,2008.0,,POINT (-75.10251944 40.02608143)
+3510,El Centro de Estudiantes (Big Picture),high,4290 PENN ST,http://www.bigpicturephiladelphia.org,el centro,2009.0,,POINT (-75.090845 40.011798)
+3540,Ombudsman Northwest,high,2111 EASTBURN AVE,http://www.ombudsman.com/state/pa,ombudsman nw,2009.0,,POINT (-75.15648403 40.05586457)
+3810,One Bright Ray - Elmwood Campus,high,6404 ELMWOOD AVE,http://www.onebrightraycommunity.org,obr elmwood,2015.0,,POINT (-75.22908493 39.92251591)
+3820,Camelot Academy East,middle-high,4224 N FRONT ST,http://cameloteducation.org/our-schools/transitional-schools/camelot-academy-east,camelot hunting park,2016.0,,POINT (-75.12599679 40.01425525)
+3840,Philadelphia OIC Workforce Academy,high,1231 N BROAD ST,http://philaoic.org/workforce-academy,phila oic,2017.0,,POINT (-75.158721 39.972966)
+4020,Overbrook High School,high,5898 LANCASTER AVE,http://philasd.org/overbrookhs,overbrook high,1926.0,,POINT (-75.238556 39.981028)
+4030,High School of Engineering and Science,middle-high,1600 W NORRIS ST,http://philasd.org/hses,carver,1949.0,,POINT (-75.16127789 39.98341809)
+4060,Murrell Dobbins Career and Technical High School,high,2150 W LEHIGH AVE,http://philasd.org/dobbins,dobbins,1938.0,,POINT (-75.16679334 39.9954293)
+4140,Strawberry Mansion High School,high,3133 RIDGE AVE,http://philasd.org/smhs,strawberry mansion,1964.0,,POINT (-75.18402464 39.99074371)
+4220,James G. Blaine School,elementary-middle,3001 W BERKS ST,http://philasd.org/blaine,blaine,1966.0,,POINT (-75.18293887 39.98521297)
+4240,Lewis C. Cassidy Academics Plus School,elementary-middle,6523 LANSDOWNE AVE,http://philasd.org/cassidy,cassidy,1924.0,,POINT (-75.25077443 39.97551874)
+4270,William Dick School,elementary-middle,2498 W DIAMOND ST,http://philasd.org/wdick,"dick, william",1954.0,,POINT (-75.173787 39.98673)
+4280,Samuel Gompers School,elementary-middle,5701 WYNNEFIELD AVE,http://philasd.org/gompers,gompers,1968.0,,POINT (-75.23754028 39.99205763)
+4300,Edward Heston School,elementary-middle,1621 N 54TH ST,http://philasd.org/heston,heston,1970.0,,POINT (-75.229727 39.977852)
+4320,Robert E. Lamberton School,elementary-middle,7501 WOODBINE AVE,http://philasd.org/lamberton,lamberton,1949.0,,POINT (-75.266329 39.975465)
+4350,E. Washington Rhodes School,elementary-middle,2900 W CLEARFIELD ST,http://philasd.org/rhodes,rhodes,2013.0,,POINT (-75.17812979 40.00275594)
+4360,Kenderton Elementary School,elementary-middle,1500 W ONTARIO ST,http://philasd.org/kenderton,kenderton,2016.0,,POINT (-75.154241 40.00494)
+4370,Overbrook Elementary School,elementary-middle,2032 N 62ND ST,http://philasd.org/overbrook,overbrook elem,1990.0,,POINT (-75.24584611 39.98225806)
+4380,Thomas M. Peirce School,elementary,3300 HENRY AVE,http://philasd.org/tmpeirce,peirce,1908.0,,POINT (-75.168424 39.998839)
+4440,Dr. Ethel Allen School,elementary-middle,3200 W LEHIGH AVE,http://philasd.org/ethelallen,"allen, ethel",1971.0,,POINT (-75.18345963 39.99757697)
+4460,Tanner G. Duckrey School,elementary-middle,1501 W DIAMOND ST,http://philasd.org/duckrey,duckrey,1968.0,,POINT (-75.15830107 39.98520302)
+4470,Richard R. Wright School,elementary,2201 N 28TH ST,http://philasd.org/wright,wright,1970.0,,POINT (-75.17699812 39.99043963)
+4480,Overbrook Educational Center,elementary-middle,6722 LANSDOWNE AVE,http://philasd.org/oec,overbrook ec,1986.0,,POINT (-75.25401239 39.97429952)
+4530,Edward Gideon School,elementary-middle,2817 W GLENWOOD AVE,http://philasd.org/gideon,gideon,1952.0,,POINT (-75.18016456 39.98447594)
+4560,William D. Kelley School,elementary-middle,1601 N 28TH ST,http://philasd.org/kelley,kelley,1965.0,,POINT (-75.18032689 39.98039173)
+4570,General George G. Meade School,elementary-middle,1600 N 18TH ST,http://philasd.org/meade,meade,1937.0,,POINT (-75.164718 39.978587)
+5020,Thomas A. Edison High School,high,151 W LUZERNE ST,http://philasd.org/edison,edison,1985.0,,POINT (-75.12863791 40.01116485)
+5050,Philadelphia Military Academy,high,2118 N. 13TH ST.,http://philasd.org/pma,pma,2005.0,,POINT (-75.15443401 39.98470959)
+5060,Jules E. Mastbaum Area Vocational Technical High School,high,3116 FRANKFORD AVE,http://philasd.org/mastbaum,mastbaum,1929.0,,POINT (-75.11213573 39.99214686)
+5070,Parkway Northwest High School,high,6200 CRITTENDEN ST,http://philasd.org/parkwaynw,parkway n.w.,1960.0,,POINT (-75.16457453 40.05664074)
+5080,Parkway Center City Middle College High School,high,540 N 13TH ST,http://philasd.org/parkwaycc,parkway c.c.,2005.0,,POINT (-75.1592865 39.96300501)
+5090,Parkway West High School,high,4725 FAIRMOUNT AVE,http://philasd.org/parkwaywest,parkway w.,2004.0,,POINT (-75.21546704 39.96425379)
+5150,William W. Bodine High School,high,1101 N 4TH ST,http://philasd.org/bodine,bodine,1935.0,,POINT (-75.14343443 39.96793026)
+5160,Penn Treaty High School,middle-high,600 E THOMPSON ST,http://philasd.org/penntreaty,penn treaty,2013.0,,POINT (-75.12787008 39.97272711)
+5170,Julia de Burgos School,elementary-middle,401 W LEHIGH AVE,http://philasd.org/deburgos,de burgos,1903.0,,POINT (-75.13862743 39.99275164)
+5180,Vaux High School: A Big Picture,high,2300 W MASTER ST,http://philasd.org/vaux,vaux high,2017.0,,POINT (-75.174186 39.976325)
+5200,Alexander Adaire School,elementary-middle,1300 E PALMER ST,http://philasd.org/adaire,adaire,1957.0,,POINT (-75.12930989 39.97232661)
+5210,Henry A. Brown School,elementary-middle,1946 E SERGEANT ST,http://philasd.org/habrown,"brown, henry",1959.0,,POINT (-75.12725674 39.98661748)
+5230,Russell H. Conwell School,middle,1849 E CLEARFIELD ST,http://philasd.org/conwell,conwell,1926.0,,POINT (-75.11527383 39.99471406)
+5250,Paul L. Dunbar School,elementary-middle,1750 N 12TH ST,http://philasd.org/dunbar,dunbar,1932.0,,POINT (-75.15416974 39.97948773)
+5260,Lewis Elkin School,elementary,3199 D ST,http://philasd.org/elkin,elkin,1973.0,,POINT (-75.121274 39.997018)
+5300,Horatio B. Hackett School,elementary,2161 E YORK ST,http://philasd.org/hackett,hackett,1969.0,,POINT (-75.12685511 39.98096374)
+5320,John F. Hartranft School,elementary-middle,720 W CUMBERLAND ST,http://philasd.org/hartranft,hartranft,1968.0,,POINT (-75.14477741 39.98942228)
+5330,William H. Hunter School,elementary-middle,2400 N FRONT ST,http://philasd.org/hunter,hunter,1909.0,,POINT (-75.13176356 39.98725028)
+5340,James R. Ludlow School,elementary-middle,550 W MASTER ST,http://philasd.org/ludlow,ludlow,1927.0,,POINT (-75.145854 39.972724)
+5350,William McKinley School,elementary-middle,2101 N ORKNEY ST,http://philasd.org/mckinley,mckinley,1970.0,,POINT (-75.14165528 39.9827686)
+5370,John Moffet School,elementary,127 W OXFORD ST,http://philasd.org/moffet,moffet,1973.0,,POINT (-75.13498462 39.97439362)
+5390,Potter-Thomas School,elementary-middle,3001 N 6TH ST,http://philasd.org/potterthomas,potter-thomas,1967.0,,POINT (-75.14107646 39.99690701)
+5400,Richmond School,elementary,2944 BELGRADE ST,http://philasd.org/richmond,richmond,1929.0,,POINT (-75.110491 39.983496)
+5410,Isaac A. Sheppard School,elementary,120 W CAMBRIA ST,http://philasd.org/sheppard,sheppard,1898.0,,POINT (-75.13163 39.993651)
+5420,John Welsh School,elementary-middle,2331 N 4TH ST,http://philasd.org/welsh,welsh,1966.0,,POINT (-75.13941869 39.98653438)
+5430,Alternative Middle Years at James Martin,middle,3380 RICHMOND ST,http://philasd.org/amymartin,amy at martin,1985.0,,POINT (-75.09718185 39.98529996)
+5440,Frances E. Willard School,elementary,1930 E ELKHART ST,http://philasd.org/willard,willard,1907.0,,POINT (-75.115907 39.993065)
+5470,William Cramp School,elementary,3449 N MASCHER ST,http://philasd.org/cramp,cramp,1969.0,,POINT (-75.13036297 40.00260657)
+5480,General Philip Kearny School,elementary-middle,601 FAIRMOUNT AVE,http://philasd.org/kearny,kearny,1898.0,,POINT (-75.14812935 39.96385753)
+5490,Cayuga School,elementary,4344 N 5TH ST,http://philasd.org/cayuga,cayuga,1950.0,,POINT (-75.135246 40.017826)
+5500,Thurgood Marshall School,elementary-middle,5120 N 6TH ST,http://philasd.org/thurgoodmarshall,"marshall, thurgood",1997.0,,POINT (-75.13416332 40.02938155)
+5520,Kensington High School for Creative and Performing Arts,high,1901 N FRONT ST,http://philasd.org/kcapa,kensington capa,2005.0,,POINT (-75.1330532 39.97794956)
+5530,Philip H. Sheridan School,elementary,800 E ONTARIO ST,http://philasd.org/sheridan,sheridan,1899.0,,POINT (-75.11478572 39.99974725)
+5550,Kensington Health Sciences Academy,high,2463 EMERALD ST,http://philasd.org/khsa,kensington health,2001.0,,POINT (-75.128685 39.985026)
+5560,Spring Garden School,elementary-middle,1146 MELON ST,http://philasd.org/springgarden,spring garden,1928.0,,POINT (-75.15614042 39.96516155)
+5590,John H. Webster School,elementary,3400 FRANKFORD AVE,http://philasd.org/webster,webster,1968.0,,POINT (-75.104516 39.996199)
+5610,Building 21,high,6501 LIMEKILN PIKE,http://philasd.org/building21,building 21,2014.0,,POINT (-75.152481 40.053631)
+5620,The U School,high,2000 N 7TH ST,http://philasd.org/uschool,u school,2014.0,,POINT (-75.146256 39.981983)
+5660,The LINC,high,122 W ERIE AVE,http://philasd.org/thelinc,linc,2014.0,,POINT (-75.129736 40.006819)
+5680,Honorable Luis Munoz-Marin School,elementary-middle,3300 N 3RD ST,http://philasd.org/munozmarin,munoz-marin,1997.0,,POINT (-75.13538958 40.00098011)
+5700,Kensington High School,high,2501 CORAL ST.,http://philasd.org/kensingtonhs,kensington h.s.,2016.0,,POINT (-75.12640188 39.98483396)
+6010,Central High School,high,1700 W OLNEY AVE,http://philasd.org/centralhs,central,1939.0,,POINT (-75.15074825 40.0372851)
+6030,Roxborough High School,high,6498 RIDGE AVE,http://philasd.org/roxboroughhs,roxborough,1924.0,,POINT (-75.22283357 40.03802479)
+6040,Walter B. Saul High School,high,7100 HENRY AVE,http://philasd.org/saul,saul,1950.0,,POINT (-75.21981676 40.04902036)
+6050,Philadelphia High School for Girls,high,1400 W OLNEY AVE,http://philasd.org/girlshs,girls,1956.0,,POINT (-75.14475989 40.03898514)
+6060,Martin Luther King High School,high,6100 STENTON AVE,http://philasd.org/mlkhs,mlk,1972.0,,POINT (-75.16217184 40.05756238)
+6090,A. Philip Randolph Career and Technical High School,high,3101 HENRY AVE,http://philasd.org/randolph,randolph,2004.0,,POINT (-75.179609 40.008504)
+6200,Anna B. Day School,elementary-middle,6324 CRITTENDEN ST,http://philasd.org/abday,day,1952.0,,POINT (-75.16833464 40.05840682)
+6210,Franklin S. Edmonds School,elementary-middle,8025 THOURON AVE,http://philasd.org/edmonds,edmonds,1948.0,,POINT (-75.1692495 40.0717255)
+6220,Eleanor C. Emlen School,elementary,6501 CHEW AVE,http://philasd.org/emlen,emlen,1926.0,,POINT (-75.17790573 40.05436289)
+6230,Fitler Academics Plus School,elementary-middle,140 W SEYMOUR ST,http://philasd.org/fitler,fitler,1898.0,,POINT (-75.16633733 40.02610052)
+6250,Charles W. Henry School,elementary-middle,601 CARPENTER LN,http://philasd.org/henry,henry,1908.0,,POINT (-75.19658776 40.04625771)
+6260,Henry H. Houston School,elementary-middle,7300 RURAL LN.,http://philasd.org/houston,houston,1927.0,,POINT (-75.195084 40.059003)
+6270,Jenks Academy for Arts and Sciences,elementary-middle,8301 GERMANTOWN AVE,http://philasd.org/jsjenks,"jenks, j.s.",1924.0,,POINT (-75.20356162 40.07440887)
+6300,James Logan School,elementary,1700 LINDLEY AVE,http://philasd.org/logan,logan,1924.0,,POINT (-75.15205995 40.03085306)
+6310,John F. McCloskey School,elementary-middle,8500 PICKERING AVE,http://philasd.org/mccloskey,mccloskey,1956.0,,POINT (-75.17533748 40.08162668)
+6320,Thomas Mifflin School,elementary-middle,3624 CONRAD ST,http://philasd.org/mifflin,mifflin,1937.0,,POINT (-75.19128804 40.01357043)
+6340,Joseph Pennell School,elementary,1800 NEDRO AVE,http://philasd.org/pennell,pennell,1927.0,,POINT (-75.15208663 40.04351806)
+6350,Samuel Pennypacker School,elementary-middle,1858 E WASHINGTON LN,http://philasd.org/pennypacker,pennypacker,1930.0,,POINT (-75.1597946 40.06527032)
+6360,Theodore Roosevelt School,elementary-middle,430 E WASHINGTON LN,http://philasd.org/roosevelt,roosevelt,2013.0,,POINT (-75.17529079 40.04856262)
+6380,Shawmont School,elementary-middle,535 SHAWMONT AVE,http://philasd.org/shawmont,shawmont,1928.0,,POINT (-75.238543 40.051478)
+6390,Edward T. Steel School,elementary-middle,4301 WAYNE AVE,http://philasd.org/steel,steel,1973.0,,POINT (-75.15689064 40.01879502)
+6400,Widener Memorial School,elementary-middle-high,1450 W OLNEY AVE,http://philasd.org/widener,widener,1953.0,,POINT (-75.146598 40.036706)
+6410,Cook-Wissahickon School,elementary-middle,201 E SALAIGNAC ST,http://philasd.org/cookwissahickon,cook-wissahickon,1969.0,,POINT (-75.206802 40.022472)
+6440,Anna L. Lingelbach School,elementary-middle,6340 WAYNE AVE,http://philasd.org/lingelbach,lingelbach,1955.0,,POINT (-75.18961364 40.03708413)
+6450,James Dobson School,elementary-middle,4667 UMBRIA ST,http://philasd.org/dobson,dobson,1930.0,,POINT (-75.23067163 40.03147536)
+6460,Hill-Freedman World Academy,middle-high,1100 E MOUNT PLEASANT AVE,http://philasd.org/hfwa,hill-freedman,1980.0,,POINT (-75.175303 40.071311)
+6470,John B. Kelly School,elementary,5116 PULASKI AVE,http://philasd.org/kelly,kelly,1970.0,,POINT (-75.1711868 40.02479143)
+6480,Academy for the Middle Years at Northwest,middle,6000 RIDGE AVE,http://philasd.org/amynw,amy at northwest,2012.0,,POINT (-75.21317609 40.03154543)
+6540,Lankenau High School,high,201 SPRING LN,http://philasd.org/lankenau,lankenau,1987.0,,POINT (-75.25295594 40.06153271)
+7010,Frankford High School,high,5000 OXFORD AVE,http://philasd.org/frankfordhs,frankford,1914.0,,POINT (-75.084823 40.021602)
+7100,Jay Cooke School,elementary-middle,1300 W LOUDON ST,http://philasd.org/cooke,cooke,1923.0,,POINT (-75.146074 40.025526)
+7110,Warren G. Harding School,middle,2000 WAKELING ST,http://philasd.org/harding,harding,1924.0,,POINT (-75.07456081 40.01291694)
+7120,Samuel Fels High School,high,5500 LANGDON ST,https://www.philasd.org/fels,fels,1954.0,,POINT (-75.09109404 40.03564646)
+7130,General Louis Wagner School,middle,1701 W CHELTEN AVE,http://philasd.org/wagner,wagner,1928.0,,POINT (-75.14767962 40.05174748)
+7150,Juniata Park Academy,elementary-middle,801 E HUNTING PARK AVE,http://philasd.org/juniatapark,juniata park,2007.0,,POINT (-75.11102921 40.01284122)
+7200,Clara Barton School,elementary,4600 ROSEHILL ST,http://philasd.org/barton,barton,1925.0,,POINT (-75.11950188 40.0193401)
+7220,Laura H. Carnell School,elementary,1100 DEVEREAUX AVE,http://philasd.org/carnell,carnell,1931.0,,POINT (-75.084142 40.038957)
+7260,Ellwood School,elementary,6701 N 13TH ST,http://philasd.org/ellwood,ellwood,1957.0,,POINT (-75.13894107 40.05472609)
+7270,Thomas K. Finletter School,elementary-middle,6100 N FRONT ST,https://www.philasd.org/finletter,finletter,1930.0,,POINT (-75.119176 40.043608)
+7280,Benjamin Franklin School,elementary-middle,5735 RISING SUN AVE,http://philasd.org/franklin,franklin k8,1915.0,,POINT (-75.10498859 40.04215213)
+7290,Allen M. Stearne School,elementary-middle,1655 UNITY ST,http://philasd.org/stearne,stearne,1968.0,,POINT (-75.085112 40.011752)
+7300,Francis Hopkinson School,elementary-middle,4001 L ST,http://philasd.org/hopkinson,hopkinson,1927.0,,POINT (-75.10274511 40.00771059)
+7310,Feltonville Intermediate School,elementary,238 E WYOMING AVE,http://philasd.org/fint,feltonville int,1908.0,,POINT (-75.12102564 40.02034002)
+7320,Julia W. Howe School,elementary,5800 N 13TH ST,http://philasd.org/howe,howe,1913.0,,POINT (-75.14211131 40.04113187)
+7330,Henry W. Lawton School,elementary,6101 JACKSON ST,http://philasd.org/lawton,lawton,1973.0,,POINT (-75.058976 40.020648)
+7350,James R. Lowell School,elementary,450 W NEDRO AVE,http://philasd.org/lowell,lowell,1913.0,,POINT (-75.12871963 40.04086578)
+7360,John Marshall School,elementary,4500 GRISCOM ST,http://philasd.org/johnmarshall,"marshall, john",1909.0,,POINT (-75.087158 40.014546)
+7370,"Grover Washington, Jr. School",middle,201 E OLNEY AVE,http://philasd.org/gwjr,"washington, grover",2000.0,,POINT (-75.117969 40.035479)
+7380,Alexander K. McClure School,elementary,600 W HUNTING PARK AVE,http://philasd.org/mcclure,mcclure,1910.0,,POINT (-75.137574 40.015178)
+7390,Andrew J. Morrison School,elementary-middle,5100 N 3RD ST,http://philasd.org/morrison,morrison,1924.0,,POINT (-75.12941126 40.02843729)
+7400,Olney School,elementary-middle,5301 N WATER ST,http://philasd.org/olney,olney,1900.0,,POINT (-75.12134354 40.03058672)
+7430,James J. Sullivan School,elementary,5300 DITMAN ST,http://philasd.org/sullivan,sullivan,1930.0,,POINT (-75.06706036 40.01529786)
+7440,Bayard Taylor School,elementary,3698 N RANDOLPH ST,http://philasd.org/taylor,taylor,1907.0,,POINT (-75.13793972 40.00753033)
+7460,William H. Ziegler School,elementary-middle,5935 SAUL ST,http://philasd.org/ziegler,ziegler,1957.0,,POINT (-75.07570448 40.03003725)
+7470,Bridesburg School,elementary-middle,2824 JENKS ST,http://philasd.org/bridesburg,bridesburg,1958.0,,POINT (-75.06660471 40.00030082)
+7490,Prince Hall School,elementary,6101 N GRATZ ST,http://philasd.org/princehall,prince hall,1971.0,,POINT (-75.14956052 40.04770742)
+7500,Feltonville School of Arts and Sciences,middle,210 E COURTLAND ST,http://philasd.org/fas,fsas,1993.0,,POINT (-75.121675 40.019437)
+7510,Mary M. Bethune School,elementary-middle,3301 OLD YORK RD,http://philasd.org/bethune,bethune,1970.0,,POINT (-75.14872828 40.00269526)
+7530,William Rowen School,elementary,6841 N 19TH ST,http://philasd.org/rowen,rowen,1938.0,,POINT (-75.1486472 40.05930676)
+7730,Roberto Clemente School,middle,122 W ERIE AVE,http://philasd.org/clemente,clemente,1916.0,,POINT (-75.129736 40.006819)
+8010,Abraham Lincoln High School,high,3201 RYAN AVE,http://philasd.org/lincoln,lincoln,1950.0,,POINT (-75.04479221 40.04310838)
+8020,Northeast High School,high,1601 COTTMAN AVE,http://philasd.org/nehs,northeast,1957.0,,POINT (-75.07118355 40.05564409)
+8030,George Washington High School,high,10175 BUSTLETON AVE,http://philasd.org/gwhs,"washington, george",1963.0,,POINT (-75.02723013 40.10598577)
+8040,Arts Academy at Benjamin Rush,high,11081 KNIGHTS RD,http://philasd.org/rush,rush,2008.0,,POINT (-74.9752061 40.08253275)
+8070,OIC CADI,high,444 N 3RD ST,http://philaoic.org,oic cadi,2004.0,,POINT (-75.144801 39.958322)
+8080,Excel Academy North,high,1435 N 26TH ST,http://cameloteducation.org/our-schools/accelerated-schools/excel-academy-north,excel north,2005.0,,POINT (-75.177658 39.978134)
+8090,Swenson Arts and Technology High School,high,2750 RED LION RD,http://philasd.org/swenson,swenson,2000.0,,POINT (-75.01398863 40.0921093)
+8100,Gateway to College - Community College of Philadelphia,high,1700 SPRING GARDEN ST,http://www.ccp.edu/academic-offerings/high-school-student-programs/gateway-college,gateway to college,2006.0,,POINT (-75.16627046 39.9629017)
+8120,Woodrow Wilson School,middle,1800 COTTMAN AVE,http://philasd.org/wwilson,wilson,1928.0,,POINT (-75.069086 40.052367)
+8140,Austin Meehan School,middle,3001 RYAN AVE,http://philasd.org/meehan,meehan,1970.0,,POINT (-75.044206 40.045607)
+8160,Baldi School,middle,8801 VERREE RD,http://philasd.org/baldi,baldi,1971.0,,POINT (-75.05217234 40.09331609)
+8190,One Bright Ray - Fairhill Campus,high,2820 N 4TH ST,http://www.onebrightraycommunity.org,obr fairhill,2004.0,,POINT (-75.13801882 39.99376434)
+8200,Ethan Allen School,elementary-middle,6329 BATTERSBY ST,http://philasd.org/ethanallen,"allen, ethan",1930.0,,POINT (-75.06268841 40.0294252)
+8210,Joseph H. Brown School,elementary,3600 STANWOOD ST,http://philasd.org/jhbrown,"brown, joseph",1937.0,,POINT (-75.02460195 40.04392183)
+8230,Kennedy C. Crossan School,elementary,7350 BINGHAM ST,http://philasd.org/crossan,crossan,1924.0,,POINT (-75.08155085 40.06144841)
+8240,Hamilton Disston School,elementary-middle,6801 COTTAGE ST,http://philasd.org/disston,disston,1924.0,,POINT (-75.04658904 40.02836911)
+8250,Edwin Forrest School,elementary,7300 COTTAGE ST,http://philasd.org/forrest,forrest,1929.0,,POINT (-75.035891 40.03444)
+8260,Fox Chase School,elementary,500 RHAWN ST,http://philasd.org/foxchase,fox chase,1949.0,,POINT (-75.082129 40.076307)
+8270,Thomas Holme School,elementary,9125 ACADEMY RD,http://philasd.org/holme,holme,1950.0,,POINT (-75.008965 40.054988)
+8300,Mayfair School,elementary-middle,3001 PRINCETON AVE,http://philasd.org/mayfair,mayfair,1949.0,,POINT (-75.05339332 40.03945436)
+8310,J. Hampton Moore School,elementary,6900 SUMMERDALE AVE,http://philasd.org/moore,moore,1952.0,,POINT (-75.076912 40.049135)
+8340,Solomon Solis-Cohen School,elementary,7001 HORROCKS ST,http://philasd.org/soliscohen,solis-cohen,1948.0,,POINT (-75.064725 40.044644)
+8350,Gilbert Spruance School,elementary-middle,6401 HORROCKS ST,http://philasd.org/spruance,spruance,1949.0,,POINT (-75.07232936 40.03756142)
+8360,Rhawnhurst School,elementary,7809 CASTOR AVE,http://philasd.org/rhawnhurst,rhawnhurst,1949.0,,POINT (-75.05898166 40.05869601)
+8370,Watson Comly School,elementary,1001 BYBERRY RD,http://philasd.org/comly,comly,1929.0,,POINT (-75.0091088 40.12096486)
+8380,Louis H. Farrell School,elementary-middle,8300 CASTOR AVE,http://philasd.org/farrell,farrell,1959.0,,POINT (-75.05241476 40.06657162)
+8390,A.L. Fitzpatrick School,elementary-middle,11061 KNIGHTS RD,http://philasd.org/fitzpatrick,fitzpatrick,1960.0,,POINT (-74.976529 40.080306)
+8400,Anne Frank School,elementary,2000 BOWLER ST,http://philasd.org/annefrank,"frank, anne",1962.0,,POINT (-75.028222 40.088288)
+8410,Robert B. Pollock School,elementary,2875 WELSH RD,http://philasd.org/pollock,pollock,1962.0,,POINT (-75.02713 40.060116)
+8420,Stephen Decatur School,elementary-middle,3500 ACADEMY RD,http://philasd.org/decatur,decatur,1964.0,,POINT (-74.970535 40.095818)
+8430,Joseph Greenberg School,elementary-middle,600 SHARON LN,http://philasd.org/greenberg,greenberg,1964.0,,POINT (-75.05771102 40.09608652)
+8440,William H. Loesche School,elementary,595 TOMLINSON RD,http://philasd.org/loesche,loesche,1965.0,,POINT (-75.02386784 40.11358364)
+8450,YES Philly,high,2709 N BROAD ST,http://www.yesphilly.org,yes philly,2013.0,,POINT (-75.15863287 39.97290649)
+8460,Philadelphia Learning Academy South,high,4300 WESTMINSTER AVE,http://philasd.org/plasouth,plas,2009.0,,POINT (-75.21013521 39.96971371)
+8470,Philadelphia Learning Academy North,high,4224 N FRONT ST,http://philasd.org/planorth,plan,2009.0,,POINT (-75.12599679 40.01425525)
+8540,Pennypack House School,high,7901 STATE RD,https://www.philasd.org/pennypackhouse,pennypack,1952.0,,POINT (-75.019689 40.032021)
+8560,The Workshop School,high,221 S HANSON ST,http://philasd.org/workshopschool,the workshop,2013.0,,POINT (-75.21855329 39.95530589)
+8690,Crossroads Accelerated Academy,middle-high,4300 WESTMINSTER AVE,http://philasd.org/crossroads-accelerated,crossroads accel,2009.0,,POINT (-75.21013521 39.96971371)
+8770,John Hancock Demonstration School,elementary-middle,3700 MORRELL AVE,http://philasd.org/hancock,hancock demonstration,2016.0,,POINT (-74.98842793 40.06774728)
+8780,Philadelphia Virtual Academy,middle-high,440 N BROAD ST,http://philasd.org/pva,pva,2013.0,,POINT (-75.16264405 39.96102159)
+8860,One Bright Ray Mansion,high,3133 RIDGE AVE,https://www.onebrightraycommunity.org,obr mansion,2018.0,,POINT (-75.18402464 39.99074371)
+8870,One Bright Ray Mansion Evening,high,3133 RIDGE AVE,https://www.onebrightraycommunity.org,obr mansion evn,2018.0,,POINT (-75.18402464 39.99074371)
+8890,One Bright Ray - Simpson Campus,high,1142 E ERIE AVE,http://www.onebrightraycommunity.org,obr simpson,2007.0,,POINT (-75.10560096 40.00528)
+8900,Re-Engagement Center,high,440 N BROAD ST,https://www.philasd.org/alternative/get-started,re-engagement,2008.0,,POINT (-75.16264405 39.96102159)
+3301,Community Academy of Philadelphia Charter School,elementary-middle-high,1100 E ERIE AVE,http://www.communityacademy.org,community academy,1997.0,,POINT (-75.10735613 40.00538049)
+3302,Harambee Institute of Science and Technology Charter School,elementary-middle,640 N 66TH ST,http://histcs.org,harambee,1997.0,,POINT (-75.25171974 39.97309111)
+3304,YouthBuild Philadelphia Charter School,high,1231 N BROAD ST,http://www.youthbuildphilly.org,youthbuild,1997.0,,POINT (-75.15863287 39.97290649)
+3306,Christopher Columbus Charter School,elementary-middle,916 CHRISTIAN ST,https://www.columbuscharter.org/,christopher columbus,1999.0,,POINT (-75.15824752 39.93894574)
+3307,Eugenio Maria De Hostos Charter School,elementary-middle,6301 N 2ND ST,https://hostoscharter.org/,de hostos,1998.0,,POINT (-75.12324994 40.04655012)
+3308,Inquiry Charter School,elementary,1301 BELMONT AVE,http://www.belmontcharternetwork.org/ics/,inquiry,1998.0,,POINT (-75.21252924 39.97475234)
+3309,Imhotep Institute Charter High School,high,6201 N 21ST ST,https://www.imhotephighschool.com,imhotep,1998.0,,POINT (-75.154717 40.049427)
+3310,Laboratory Charter School of Communication and Languages,elementary-middle,926 W SEDGLEY AVE,http://www.thelaboratorycharterschool.com,laboratory,1998.0,,POINT (-75.145662 40.001404)
+3312,Multicultural Academy Charter School,high,3821 N BROAD ST,http://www.macs.k12.pa.us,multicultural academy,1998.0,,POINT (-75.15073123 40.01112725)
+3313,"Preparatory Charter School of Mathematics, Science, Technology and Careers",high,1928 POINT BREEZE AVE,https://prepchs.org,preparatory charter,1998.0,,POINT (-75.18665686 39.92845355)
+3314,West Oak Lane Charter School,elementary-middle,7115 STENTON AVE,http://www.wolcs.org,west oak lane,1998.0,,POINT (-75.16363798 40.05936358)
+3315,Alliance For Progress Charter School,elementary-middle,1821 CECIL B MOORE AVE,http://www.afpcs.org,alliance for progress,1998.0,,POINT (-75.165471 39.979731)
+3318,Freire Charter School,middle-high,2027 CHESTNUT ST,http://www.freirecharterschool.org,freire,1999.0,,POINT (-75.17442259 39.95247289)
+3321,"Math, Civics and Sciences Charter School",elementary-middle-high,447 N BROAD ST,http://www.mcscs.org,math civics and sciences,1999.0,,POINT (-75.16097 39.961301)
+3322,Philadelphia Academy Charter School,elementary-middle-high,11000 ROOSEVELT BLVD,http://www.philadelphiaacademy.org,philadelphia academy,1999.0,,POINT (-75.01109307 40.10358436)
+3323,Mastery Charter School at Hardy Williams,elementary-middle-high,5400 WARRINGTON AVE,http://www.masterycharter.org/hardyhigh,mastery hardy williams,1999.0,,POINT (-75.226447 39.941562)
+3326,Universal Institute Charter School,elementary-middle,801 S 15TH ST,http://universalfamilyofschools.org/our-schools/universal-institute-charter-school,universal institute,1999.0,,POINT (-75.16794 39.940931)
+3328,"Mathematics, Science, and Technology Community Charter School (MaST)",elementary-middle-high,1800 BYBERRY RD,http://www.mastccs.org,mast,1999.0,,POINT (-75.005658 40.113832)
+3329,Young Scholars Charter School,middle,900 N MARSHALL ST,http://www.phillyscholars.org,young scholars,1999.0,,POINT (-75.14799661 39.96734659)
+3331,Franklin Towne Charter High School,high,5301 TACONY ST,http://hs.franklintowne.org,franklin towne high school,2000.0,,POINT (-75.066611 40.007337)
+3332,Mariana Bracetti Academy Charter School,elementary-middle-high,1840 TORRESDALE AVE,http://www.mbacs.org,"bracetti, mariana",2000.0,,POINT (-75.094146 40.005757)
+3333,Esperanza Academy Charter School,elementary-middle-high,301 W HUNTING PARK AVE,http://esperanzaacademycs.org,esperanza academy,2000.0,,POINT (-75.13232396 40.01478539)
+3334,New Foundations Charter School,elementary-middle-high,8001 TORRESDALE AVE,http://www.nfcsonline.org,new foundations,2000.0,,POINT (-75.024187 40.03507)
+3335,People for People Charter School,elementary-middle-high,800 N BROAD ST,https://www.pfpcs.org,people for people,2001.0,,POINT (-75.16067477 39.96810141)
+3336,Philadelphia Performing Arts: A String Theory Charter School,elementary-middle-high,2600 S BROAD ST,http://www.stringtheoryschools.org,philadelphia performing arts,2000.0,,POINT (-75.17166577 39.91777662)
+3337,Global Leadership Academy Charter School,elementary-middle,4601 W GIRARD AVE,http://www.glacharter.org,global leadership,2000.0,,POINT (-75.2154352 39.97335953)
+3341,Independence Charter School,elementary-middle,1600 LOMBARD ST,http://www.independencecharter.org,independence,2001.0,,POINT (-75.16855598 39.94496682)
+3353,KIPP DuBois Charter School,high,5070 PARKSIDE AVE,http://kippphiladelphia.org/our-schools/kipp-dubois-collegiate-academy,kipp dubois,2015.0,,POINT (-75.22085032 39.98043019)
+3357,West Philadelphia Achievement Charter School,elementary,6701 CALLOWHILL ST,http://www.wpaces.org,west philadelphia achievement,2002.0,,POINT (-75.254111 39.970667)
+3358,Philadelphia Electrical and Technology Charter School,high,1420 CHESTNUT ST,http://www.petchs.org,pe&t,2002.0,,POINT (-75.16511082 39.95060789)
+3359,Richard Allen Preparatory Charter School,middle,2601 S 58TH ST,http://www.rapcs.org,"allen, richard",2001.0,,POINT (-75.21926743 39.92809187)
+3360,Russell Byers Charter School,elementary-middle,1911 ARCH ST,http://www.byerschool.org,"byers, russell",2001.0,,POINT (-75.17155064 39.95594922)
+3361,Mastery Charter School at Lenfest,middle-high,35 S 4TH ST,https://masterycharter.org/school/lenfest-campus/,mastery lenfest,2001.0,,POINT (-75.14734776 39.94950579)
+3362,Wissahickon Charter School,elementary-middle,4700 WISSAHICKON AVE,http://www.wissahickoncharter.org,wissahickon,2002.0,,POINT (-75.17405347 40.01537246)
+3364,First Philadelphia Preparatory Charter School,elementary-middle-high,4300 TACONY ST,http://www.ap-schools.org/First-Phila-Prep,first philadelphia,2002.0,,POINT (-75.08240619 40.00719991)
+3365,Green Woods Charter School,elementary-middle,468 DOMINO LN,http://www.greenwoodscharter.org,green woods,2002.0,,POINT (-75.23385852 40.04416378)
+3366,Maritime Academy Charter School (MACHS),elementary-middle-high,2275 BRIDGE ST,http://www.maritimecharter.org,maritime,2003.0,,POINT (-75.068318 40.007862)
+3368,Belmont Charter School,elementary-middle-high,4030 BROWN ST,http://www.belmontcharternetwork.org/bcs,belmont,2005.0,,POINT (-75.20487093 39.96696484)
+3370,KIPP Philadelphia Charter School,elementary-middle,2539 N 16TH ST,http://kippphiladelphia.org/our-schools/kipp-philadelphia-preparatory-academy,kipp philadelphia,2003.0,,POINT (-75.158039 39.992038)
+3372,Discovery Charter School,elementary-middle,4700 PARKSIDE AVE,https://www.jykdiscoverycharterschool.com/,discovery,2003.0,,POINT (-75.21350485 39.97770823)
+3378,Philadelphia Montessori Charter School,elementary,2227 ISLAND RD,http://www.philadelphiamontessori.org,philadelphia montessori,2004.0,,POINT (-75.24515327 39.91656437)
+3379,Ad Prima Charter School,elementary-middle,1922 N 63RD ST,http://www.adprimacharterschools.org,ad prima,2004.0,,POINT (-75.24786 39.984296)
+3383,Mastery Charter School at Shoemaker,middle-high,5301 MEDIA ST,http://www.masterycharter.org/shoemaker,mastery shoemaker,2006.0,,POINT (-75.228437 39.975799)
+3384,Folk Arts-Cultural Treasures Charter School,elementary-middle,1023 CALLOWHILL ST,http://www.factschool.org,facts,2005.0,,POINT (-75.15551365 39.95885103)
+3385,Mastery Charter School at Thomas Campus,elementary-middle-high,927 JOHNSTON ST,http://www.masterycharter.org/thomaselementary,mastery thomas,2005.0,,POINT (-75.16358831 39.91454096)
+3386,Northwood Academy Charter School,elementary-middle,4621 CASTOR AVE,http://www.northwoodcs.org,northwood,2005.0,,POINT (-75.09523811 40.02015006)
+3388,Boys Latin of Philadelphia Charter School,middle-high,5501 CEDAR AVE,http://www.boyslatin.org,boys latin,2007.0,,POINT (-75.23374851 39.95172558)
+3389,Keystone Academy Charter School,elementary-middle,4521 LONGSHORE AVE,http://www.keystoneacademycs.org,keystone academy,2007.0,,POINT (-75.045089 40.021916)
+3392,Southwest Leadership Academy Charter School,elementary-middle,7101 PASCHALL AVE,http://www.slacs-phila.org,southwest leadership,2007.0,,POINT (-75.2426 39.918099)
+3393,Mastery Charter School at Pickett,middle-high,5700 WAYNE AVE,http://www.masterycharter.org/schools/pickett-campus,mastery pickett,2007.0,,POINT (-75.18087124 40.03187441)
+3394,Pan American Academy Charter School,elementary-middle,2830 N AMERICAN ST,https://www.panamcs.org/,pan american,2008.0,,POINT (-75.13614883 39.99428061)
+3395,Antonia Pantoja Charter School,elementary-middle,4101 N AMERICAN ST,https://pantojacharter.org/,"pantoja, antonia",2008.0,,POINT (-75.13136564 40.01300525)
+3396,KIPP West Philadelphia Preparatory Charter School,middle,5900 BALTIMORE AVE,http://kippphiladelphia.org/our-schools/kipp-west-philadelphia-preparatory-charter-school,kipp west,2009.0,,POINT (-75.24184422 39.94453199)
+3399,Sankofa Freedom Academy Charter School,elementary-middle-high,2501 KENSINGTON AVE,http://www.sfacs.us,sankofa,2009.0,,POINT (-75.128641 39.987082)
+3403,Franklin Towne Charter Elementary School,elementary-middle,4259 RICHMOND ST,http://es.franklintowne.org,franklin towne elementary,2009.0,,POINT (-75.07472434 39.99551599)
+3404,Tacony Academy Charter School,elementary-middle-high,1330 RHAWN ST,http://www.ap-schools.org/Tacony-Academy-Charter,tacony academy,2009.0,,POINT (-75.06598353 40.06684222)
+3406,Aspira Charter School at Stetson,middle,3200 B ST,http://stetsoncharter.org/,aspira stetson,2010.0,,POINT (-75.12546663 39.99806894)
+3407,Mastery Charter School at Harrity,elementary-middle,5601 CHRISTIAN ST,http://www.masterycharter.org/harrity,mastery harrity,2010.0,,POINT (-75.23548525 39.94852458)
+3408,Mastery Charter School at Mann,elementary,5376 W BERKS ST,http://www.masterycharter.org/school/mann-elementary,mastery mann,2010.0,,POINT (-75.2313266 39.98590147)
+3409,Mastery Charter School at Smedley,elementary,1790 BRIDGE ST,http://www.masterycharter.org/smedley,mastery smedley,2010.0,,POINT (-75.073892 40.019786)
+3410,Universal Charter School at Bluford,elementary,5801 MEDIA ST,https://www.universalfamilyofschools.org/universal-bluford/,universal bluford,2010.0,,POINT (-75.23602 39.973739)
+3411,Universal Charter School at Daroff,elementary-middle,5630 VINE ST,https://www.universalfamilyofschools.org/universal-daroff/,universal daroff,2010.0,,POINT (-75.2325217 39.96558158)
+3412,Mastery Charter School at Douglass,elementary-middle,2118 W NORRIS ST,http://www.masterycharter.org/school/frederick-douglass-elementary,mastery douglass,2010.0,,POINT (-75.16846267 39.98461532)
+3414,Aspira Charter School at Olney,high,100 W DUNCANNON AVE,https://olneycharter.org/,aspira olney,2011.0,,POINT (-75.123808 40.028772)
+3415,Mastery Charter School at Clymer,elementary,1201 W RUSH ST,http://www.masterycharter.org/school/clymer-elementary,mastery clymer,2011.0,,POINT (-75.15034419 39.99565934)
+3416,Mastery Charter School at Gratz,middle-high,1798 W HUNTING PARK AVE,http://www.masterycharter.org/gratzprep,mastery gratz,2011.0,,POINT (-75.15660685 40.01453965)
+3417,Universal Charter School at Audenried,high,3301 TASKER ST,https://www.universalfamilyofschools.org/universal-audenreid-charter-high-school/,universal audenried,2011.0,,POINT (-75.19859 39.933737)
+3418,Universal Charter School at Vare,middle,2100 S 24TH ST,https://www.universalfamilyofschools.org/universal-vare-charter-school/,universal vare,2011.0,,POINT (-75.185707 39.925837)
+3419,Lindley Academy Charter at Birney,elementary-middle,900 LINDLEY AVE,http://www.ap-schools.org/Lindley-Academy,lindely birney,2011.0,,POINT (-75.13883269 40.02954904)
+3420,Mastery Charter School at Cleveland,elementary-middle,3701 N 19TH ST,http://www.masterycharter.org/cleveland,mastery cleveland,2012.0,,POINT (-75.15908455 40.01027824)
+3421,Universal Charter School at Creighton,elementary-middle,5401 TABOR AVE,https://www.universalfamilyofschools.org/universal-creighton/,universal creighton,2012.0,,POINT (-75.10586492 40.03404277)
+3422,The Philadelphia Charter School for Arts and Sciences,elementary-middle,1197 HAWORTH ST,http://www.stringtheoryschools.org/edmunds-campus/art-science-landing-page,edmunds,2012.0,,POINT (-75.08599631 40.02423246)
+3423,Memphis Street Academy Charter School at J.P. Jones,middle,2950 MEMPHIS ST,http://www.ap-schools.org/Memphis-Street-Academy,memphis street,2012.0,,POINT (-75.11285949 39.98588986)
+3424,Universal Charter School at Alcorn,elementary-middle,3200 DICKINSON ST,https://www.universalfamilyofschools.org/universal-alcorn-elementary/,universal alcorn,2013.0,,POINT (-75.197771 39.935499)
+3426,Mastery Charter School at Pastorius,elementary-middle,5650 SPRAGUE ST,http://www.masterycharter.org/school/francis-d-pastorius-elementary,mastery pastorius,2013.0,,POINT (-75.161424 40.048208)
+3427,Mastery Charter School at Wister,elementary,67 E BRINGHURST ST,http://www.masterycharter.org/wister,mastery wister,2016.0,,POINT (-75.16672063 40.03288146)
+3428,Global Leadership Academy at Huey,elementary-middle,5200 PINE ST,http://www.glacharter.org,global leadership at huey,2016.0,,POINT (-75.22685833 39.95332691)
+3437,KIPP North Philadelphia Charter School,elementary,2539 N 16TH ST,http://kippphiladelphia.org/kipp-north-philadelphia-academy,kipp n phila charter,2018.0,,POINT (-75.158212 39.99193)
+3438,Deep Roots Charter School,elementary,3556 FRANKFORD AVE,https://deeprootscs.org,deep roots charter,2018.0,,POINT (-75.101664 39.998066)
+3439,Mastery Prep Elementary Charter School,elementary,1801 W PIKE ST,http://www.masterycharter.org/masteryprepelementary,mastery prp elm,2018.0,,POINT (-75.156128 40.013457)
+3440,MaST Community Charter School II,elementary-middle-high,6501 STATE RD,https://mast2.org/,mast ii,2016.0,,POINT (-75.044372 40.017476)
+3441,TECH Freire Charter School,high,2221 N BROAD ST,http://www.techfreire.org,tech freire,2016.0,,POINT (-75.155669 39.986869)
+3442,Independence Charter School West,elementary-middle,5600 CHESTER AVE,http://www.icswest.org,independence west,2016.0,,POINT (-75.22614036 39.93731366)
+3443,KIPP West Philadelphia Charter School,elementary,5070 PARKSIDE AVE,http://kippphiladelphia.org/our-schools/kipp-west-philadelphia-elementary-academy/,kipp west elementary,2016.0,,POINT (-75.24184422 39.94453199)
+3445,MAST III Charter School,elementary,1 CROWN WAY,https://mast3.org/,mast iii,2019.0,,POINT (-74.991671 40.109575)
+3446,Philadelphia Hebrew Charter,elementary,3300 HENRY AVE,http://philadelphiahebrewpublic.org/,philadelphia hebrew,2019.0,,POINT (-75.184376 40.012045)
+3317,Architecture and Design Charter School,high,105 S 7TH ST,http://www.chadphila.org,chad,1999.0,,POINT (-75.152249 39.948892)
+2020,High School for Creative and Performing Arts School,high,901 S. BROAD ST.,http://philasd.org/capa/,capa,1997.0,,POINT (-75.16548375 39.93941992)
+4370,Overbrook School,elementary-middle,2032 N. 62ND ST.,http://philasd.org/overbrook,overbrook elem,1990.0,,POINT (-75.24584611 39.98225806)
+3350,Khepera Charter School,elementary-middle,926 W. SEDGLEY AVE.,https://www.philasd.org/charterschools/directory/khepera-charter-school/,khepera,2004.0,,POINT (-75.14518753 40.00139998)
+3397,Eastern University Academy Charter School,middle-high,3300 HENRY AVE.,http://www.euacademycs.org/,eastern,2009.0,,POINT (-75.183476 40.012165)
+3419,Lindley Academy Charter @ Birney,elementary-middle,900 LINDLEY AVE.,http://www.ap-schools.org/lindleyacademy.aspx,lindely birney,2011.0,,POINT (-75.13883269 40.02954904)
+3170,VisionQuest,middlehigh,5201 OLD YORK RD.,http://vq.com,visionquest ltd,,,POINT (-75.144876 40.03219)
+5430,Alternative Middle Years at James Martin ,middle,3380 RICHMOND ST.,http://philasd.org/amymartin/,amy at martin,,,POINT (-75.09718185 39.98529996)
+8200,Ethan Allen School ,elementarymiddle,6329 BATTERSBY ST.,http://philasd.org/ethanallen,ethan allen,,,POINT (-75.06268841 40.0294252)
+1050,Bartram Human Services,high,42 & LUDLOW STS,,,2003.0,,POINT EMPTY
+1060,Bartram Communication,high,78TH & BUIST AVE,,,,2012-2013,POINT EMPTY
+1060,Communication Technology High School,high,8110 LYONS AVE,,,,2012-2013,POINT EMPTY
+1080,University City High School,high,36TH & FILBERT STS,,,,2012-2013,POINT EMPTY
+1090,Bartram Business,high,2401 S 67TH ST,,,,2011-2012,POINT EMPTY
+1090,High School for Business & Technology,high,2401 S 67TH ST,,,,2011-2012,POINT EMPTY
+1100,William L. Sayre Middle School,middle,58TH & WALNUT STS,,,1950.0,,POINT EMPTY
+1110,Anna H. Shaw Middle School,middle,54TH & WARRINGTON AVE,,,,2012-2013,POINT EMPTY
+1120,Mayer Sulzberger Middle School,middle,48TH & FAIRMOUNT AVE,,,,2008-2009,POINT EMPTY
+1150,George Pepper Middle School,middle,84TH ST & LYONS AVE,,,,2012-2013,POINT EMPTY
+1160,John P. Turner Middle School,middle,59TH & BALTIMORE AVE,,,,2008-2009,POINT EMPTY
+1190,Batram Motivation,high,78TH & BUIST,,,2004.0,,POINT EMPTY
+1210,Belmont School,elementary,41ST & BROWN STS,,,,2002-2003,POINT EMPTY
+1270,Charles R. Drew School,elementarymiddle,38TH SO OF POWELTON,,,,2011-2012,POINT EMPTY
+1310,William F. Harrity School,elementarymiddle,56TH & CHRISTIAN ST,,,,2009-2010,POINT EMPTY
+1330,Samuel B. Huey School,elementarymiddle,52ND & PINE ST,,,1964.0,2015-2016,POINT EMPTY
+1430,Alexander Wilson School,elementarymiddle,46TH & WOODLAND AVE,,,,2012-2013,POINT EMPTY
+1530,Leidy School,elementarymiddle,BELMONT AVE & THOMPSON ST,,,,2012-2013,POINT EMPTY
+2060,Philadelphia Regional High School,high,1118 MARKET ST,,,,2004-2005,POINT EMPTY
+2090,Edward Bok High School,high,8TH & MIFFLIN ST,,,,2012-2013,POINT EMPTY
+2100,Charles Audenried High School,high,33RD & TASKER ST,,,,2004-2005,POINT EMPTY
+2110,Norris S. Barratt Middle School,middle,16TH & WHARTON ST,,,,2010-2011,POINT EMPTY
+2120,Edwin H. Vare Middle School,middle,24TH & SNYDER AVE,,,,2010-2011,POINT EMPTY
+2130,Roberts Vaux School,middle,24TH & MASTER ST,,,,2013-2014,POINT EMPTY
+2150,George C. Thomas Middle School,middle,9TH & JOHNSTON ST,,,,2004-2005,POINT EMPTY
+2200,James Alcorn School,elementarymiddle,32ND & DICKINSON,,,,2012-2013,POINT EMPTY
+2141,Julia R. Masterman School,middle,17TH & SPRING GARDEN,,,,2007-2008,POINT EMPTY
+2300,Thomas Durham Child Development Center,elementary,16TH & LOMBARD ST,,,,2002-2003,POINT EMPTY
+2400,W.S. Peirce High School,middle,24TH & CHRISTIAN ST,,,,2006-2007,POINT EMPTY
+2420,General John F. Reynolds School,elementarymiddle,24TH & JEFFERSON ST,,,,2012-2013,POINT EMPTY
+2440,Walter G. Smith School,elementarymiddle,19TH & WHARTON ST,,,,2012-2013,POINT EMPTY
+2720,Abigail Vare School,elementarymiddle,MORRIS & MOYAMENSING AVE,,,1903.0,,POINT EMPTY
+2730,George Washington School,elementarymiddle,5TH & FEDERAL ST,,,,2012-2013,POINT EMPTY
+2800,Charles Audenried Hisgh School,high,3301 TASKER ST,,,,2010-2011,POINT EMPTY
+4010,Simon Gratz High School,high,17TH & LUZERNE ST,,,,2010-2011,POINT EMPTY
+4100,Dimner Beeber School,middle,59TH & MALVERN,,,1933.0,,POINT EMPTY
+4110,Thomas Fitzsimons School,middle,26TH & CUMBERLAND ST,,,,2011-2012,POINT EMPTY
+4120,Elizabeth Gillespie Middle School,middle,18TH & PIKE ST,,,,2009-2010,POINT EMPTY
+4130,William H. Shoemaker Middle School,middle,53RD & MEDIA AVE,,,,2006-2007,POINT EMPTY
+4150,Washington E. Rhodes School,middle,29TH & CLEARFIELD ST,,,,2012-2013,POINT EMPTY
+4210,Samuel Daroff School,elementarymiddle,57TH & VINE STS,,,,2009-2010,POINT EMPTY
+4260,Grover Cleveland School,elementary,19TH ST N OF ERIE AVE,,,,2011-2012,POINT EMPTY
+4290,Hanna S. WM. B. Guion Bludford School,elementarymiddle,5801 MEDIA ST,,,,2009-2010,POINT EMPTY
+4310,Kenderton School,elementarymiddle,15TH & ONTARIO ST,,,,2012-2013,POINT EMPTY
+4320,Robert E. Lamberton Elementary School,elementarymiddle,75TH & WOODBINE AVE,,,1949.0,,POINT EMPTY
+4330,Robert E. Lamberton High School,high,7501 WOODBINE AVE,,,,2012-2013,POINT EMPTY
+4340,William B. Mann School,elementary,54TH & BERKS ST,,,,2009-2010,POINT EMPTY
+4390,Anna B. Pratt School,elementary,22ND & SUSQUEHANNA AVE,,,,2012-2013,POINT EMPTY
+4400,M. Hall Stanton School,elementary,16TH & CUMBERLAND,,,,2012-2013,POINT EMPTY
+4420,Rudolph S. Walton School,elementary,28TH & HUNTINGDON,,,,2002-2003,POINT EMPTY
+4430,John G. Whittier School,elementary,27TH & CLEARFIELD,,,,2012-2013,POINT EMPTY
+4450,Leslie P. Hill School,elementarymiddle,32ND & RIDGE AVE,,,,2012-2013,POINT EMPTY
+4510,Frederick Douglass School,elementarymiddle,22ND & NORRIS ST,,,,2009-2010,POINT EMPTY
+5010,Kensington High School,high,AMBER & CUMBERLAND,,,,2004-2005,POINT EMPTY
+5040,William Penn High School,high,BROAD AND MASTER STS,,,,2009-2010,POINT EMPTY
+5050,Elverson Military Academy,high,13TH & SUSQUEHANNA AVE,,,2005.0,,POINT EMPTY
+5071,Parkway Center City High School,high,9 SOUTH 12TH ST,,,2005.0,,POINT EMPTY
+5080,Parkway Center City High School,high,9 SOUTH 12TH ST,,,2005.0,,POINT EMPTY
+5073,Parkway Gamma High School,high,4901 CHESTNUT ST,,,2004.0,,POINT EMPTY
+5090,Parkway Gamma High School,high,4901 CHESTNUT ST,,,2004.0,,POINT EMPTY
+5100,John Paul Jones Middle School,middle,ANN & MEMPHIS ST,,,,2011-2012,POINT EMPTY
+5110,Penn Treaty Middle School,middle,MONTGOMERY AVE & E THOMPSON ST,,,,2012-2013,POINT EMPTY
+5120,John B. Stetson Middle School,middle,B & ALLEGHENY AVE,,,,2009-2010,POINT EMPTY
+5130,John Wanamaker Middle School,middle,11TH & COLUMBIA AVE,,,,2005-2006,POINT EMPTY
+5140,Stoddart Fleisher Middle School,middle,13TH & GREEN ST,,,,2005-2006,POINT EMPTY
+5190,Youthbuild Alternative,high,1231 N BROAD ST,,,,2007-2008,POINT EMPTY
+5220,George Clymer School,elementarymiddle,12TH & RUSH STS,,,,2010-2011,POINT EMPTY
+5240,Stephen A. Douglas School,high,HUNTINGDON & EDGEMONT,,,,2012-2013,POINT EMPTY
+5270,James Elverson Middle School,middle,13TH & SUSQUEHANNA AVE,,,,2004-2005,POINT EMPTY
+5280,Fairhill School,elementarymiddle,6TH & SOMERSET,,,,2012-2013,POINT EMPTY
+5290,Joseph C. Ferguson School,elementarymiddle,7TH & NORRIS,,,,2012-2013,POINT EMPTY
+5310,William H. Harrison School,elementarymiddle,11TH & THOMPSON ST,,,,2011-2012,POINT EMPTY
+5450,Charles Carroll High School,high,EDGEMONT & AUBURN,,,,2012-2013,POINT EMPTY
+5510,"Kensington International Business, Finance, and Entrepreneurship High School",high,AMBER & CUMBERLAND,,,2005.0,2015-2016,POINT EMPTY
+5550,Kensington Culinary,high,2463 EMERALD ST,,,2001.0,,POINT EMPTY
+5600,Kensington Urban Education Academy,high,2051 E CUMBERLAND ST,,,2010.0,2015-2016,POINT EMPTY
+5650,Sheridan West School,middle,G & ONTARIO ST,,,,2012-2013,POINT EMPTY
+5660,the LINC,high,122 W ERIE AVE,,,2014.0,,POINT EMPTY
+6020,Germantown High School,high,GERMANTOWN & HIGH ST,,,,2012-2013,POINT EMPTY
+6070,Philadelphia Military Academy at Leeds,high,1100 E MT PLEASANT AVE,,,,2012-2013,POINT EMPTY
+6100,Morris E. Leeds School,middle,MT PLEASANT & WOOLSTON AVE,,,1953.0,2015-2016,POINT EMPTY
+6110,Theodore Roosevelt Middle School,middle,WASHINGTON LANE & MUSGRAVE,,,,2012-2013,POINT EMPTY
+6150,Clarence E. Pickett Middle School,middle,WAYNE & CHELTEN AVES,,,,2006-2007,POINT EMPTY
+6160,Ada H. Lewis Middle School,middle,TULPEHOCKEN & ARDLEIGH STS,,,,2006-2007,POINT EMPTY
+6240,Robert Fulton School,elementarymiddle,HAINES E OF GERMANTOWN AVE,,,,2012-2013,POINT EMPTY
+6270,John Story Jenks Academy for Arts and Sciences,elementarymiddle,GERMANTOWN & SOUTHAMPTON AVE,,,1924.0,,POINT EMPTY
+6280,John L. Kinsey School,elementarymiddle,65TH & LIMEKILN PIKE,,,,2012-2013,POINT EMPTY
+6290,William Levering School,elementarymiddle,RIDGE AVE & GERHARD,,,,2011-2012,POINT EMPTY
+6330,Francis P. Pastorius School,elementarymiddle,CHELTEN & SPRAGUE ST,,,,2012-2013,POINT EMPTY
+6430,John Wister School,elementary,WAKEFIELD & BRINGHURST,,,1955.0,2015-2016,POINT EMPTY
+6460,Hill-Freedman School,middlehigh,TUPLEHOCKEN & CRITTENDEN STS,,,1980.0,,POINT EMPTY
+7020,Olney High School,high,FRONT & DUNCANNON AVE,,,,2004-2005,POINT EMPTY
+7040,Olney West High School,high,FRONT & DUNCANNON AVE,,,,2010-2011,POINT EMPTY
+7050,Olnet East High School,high,FRONT & DUNCANNON AVE,,,,2010-2011,POINT EMPTY
+7150,G & Hunting Park,elementarymiddle,G & HUNTING PARK AVE,,,2007.0,,POINT EMPTY
+7210,Gen. David B. Birney School,elementary,9TH & LINDLEY AVE,,,,2010-2011,POINT EMPTY
+7240,Thmoas Creighton School,elementarymiddle,TABOR RD & FOULKROD,,,,2011-2012,POINT EMPTY
+7250,Henry R. Edmunds School,elementarymiddle,LARGE & DYRE,,,,2011-2012,POINT EMPTY
+7420,Franklind Smedley School,elementary,BRIDGE & MULBERRY ST,,,,2009-2010,POINT EMPTY
+7500,Central East Middle School,middle,B & WYOMING AVE,,,1993.0,,POINT EMPTY
+7500,Feltonville Arts & Sciences School,middle,210 E COURTLAND ST,,,1993.0,,POINT EMPTY
+8150,Nejamin Rush Middle School,middle,KNIGHTS & FAIRDALE RDS,,,,2006-2007,POINT EMPTY
+8180,John Hancock Demonstration School,elementary,MORRELL & CROWN AVES,,,1968.0,2015-2016,POINT EMPTY
+8320,General J. Harry LaBrum School,middle,HAWLEY & BROOKVIEW ROADS,,,1974.0,2015-2016,POINT EMPTY
+3301,Community Academy of Philadelphia Charter School ,elementarymiddlehigh,1100 E ERIE AVE,,,1997.0,,POINT EMPTY
+3303,World Communications Charter School,middlehigh,512 S BROAD ST,,,1997.0,,POINT EMPTY
+3305,Center for Economics & Law Charter School,high,3020 MARKET ST,,,,2003-2004,POINT EMPTY
+3308,Family Charter,elementary,3512 HAVERFORD AVE 2ND FL,,,1998.0,,POINT EMPTY
+3308,Belmont Academy Charter School,elementary,907 NORTH 41ST ST,,,1998.0,,POINT EMPTY
+3312,Multi-Cultural Academy Charter School,high,4666-68 N 15TH ST,,,1998.0,,POINT EMPTY
+3315,Alliance Charter School,elementarymiddle,1821 N CECIL B MOORE AV,,,1998.0,,POINT EMPTY
+3317,Charter High School for Architecture and Design Charter,high,105 SO 7TH ST,,,1999.0,,POINT EMPTY
+3319,Germantown Settlement Charter School,middle,4811 GERMANTOWN AVE,,,,2008-2009,POINT EMPTY
+3320,Imani Education Circle Charter School,elementarymiddle,5612 GREENE ST 2ND FL,,,1999.0,2015-2016,POINT EMPTY
+3323,Renaissance Advantage Charter School,elementarymiddle,4601 MARKET ST,,,1999.0,,POINT EMPTY
+3323,Hardy Williams Academy Mastery Charter School,elementarymiddle,1712 S 56TH ST,,,1999.0,,POINT EMPTY
+3324,Renaissance Charter School,middle,7500 GERMANTOWN AVE,,,,2008-2009,POINT EMPTY
+3333,Nueva Esperanza Academy Charter School,middlehigh,301 W HUNTING PARK AVE,,,2000.0,,POINT EMPTY
+3336,Philadelphia Performing Arts Charter School,elementarymiddlehigh,BROAD ST & OREGON AVE,,,2000.0,,POINT EMPTY
+3337,Raising Horizons Quest Charter School,elementarymiddle,4960_x001B_O-64 MASTER ST,,,2000.0,,POINT EMPTY
+3339,Wakisha Charter School,middle,1209 VINE ST,,,2000.0,2014-2015,POINT EMPTY
+3340,Leadership Learning Charter School,elementarymiddlehigh,1425 N 2ND ST,,,2001.0,2014-2015,POINT EMPTY
+3340,Walter D. Palmer Leadership Learning Partners Charter School,elementarymiddlehigh,910 N 6TH ST,,,2001.0,2014-2015,POINT EMPTY
+3342,Delaware Valley Charter High School,high,1613 WADSWORTH AVE,,,2001.0,,POINT EMPTY
+3353,Kipp Dubois,high,5070 PARKSIDE AVE,,,2015.0,,POINT EMPTY
+3361,High Teach High Charter School,middlehigh,1302 ARCH ST 3RD FL,,,2001.0,,POINT EMPTY
+3361,Mastery Charter School at Lenfest Campus,middlehigh,35 S 4TH ST,,,2001.0,,POINT EMPTY
+3363,Hope Charter School,high,2116 E HAINES ST,,,,2012-2013,POINT EMPTY
+1210,Belmont Charter School,elementarymiddle,41ST & BROWN STS,,,2005.0,,POINT EMPTY
+3379,AD Prima Charter School,elementarymiddle,5901 WOODBINE AVE,,,2004.0,,POINT EMPTY
+3380,New Media Technology Charter School,middlehigh,7800 OGONTZ AVE,,,2004.0,,POINT EMPTY
+3383,Mastery Charter School at Shoemaker Campus,middlehigh,5301 MEDIA ST,,,2006.0,,POINT EMPTY
+3384,Folks Arts Culture Treasures Charter School,elementarymiddle,1118 MARKET ST,,,2005.0,,POINT EMPTY
+3389,Planet Abacus Charter School,elementarymiddle,6649 TULIP ST,,,2007.0,,POINT EMPTY
+3391,Truebright Science Academy Charter School,middlehigh,926 W SEDGLEY AVE,,,2007.0,2014-2015,POINT EMPTY
+3393,Mastery Charter School at Pickett Campus,middlehigh,5700 WAYNE AVE,,,2007.0,,POINT EMPTY
+3398,Arise Academy Charter High School,high,1118 MARKET ST SUITE B,,,2009.0,2014-2015,POINT EMPTY
+3412,Young Scholars Charter School at Frederick Douglass,elementarymiddle,2118 W NORRIS ST,,,2010.0,,POINT EMPTY
+3412,Frederick Douglass Mastery Charter School,elementarymiddle,2118 W NORRIS ST,,,2010.0,,POINT EMPTY
+3419,Mastery Charter School at Birney,elementarymiddle,900 W LINDLEY AVE,,,2011.0,,POINT EMPTY
+3419,General David B. Birney Charter School,elementarymiddle,900 LINDLEY AVE,,,2011.0,,POINT EMPTY
+3422,Philadelphia Charter School for the Arts and Sciences,elementarymiddle,1197 HAWORTH ST,,,2012.0,,POINT EMPTY
+3425,Young Scholars Charter School at Kenderton,elementarymiddle,1500 W ONTARIO ST,,,2013.0,,POINT EMPTY
+3426,Mastery Charter School at Pastorius ,elementarymiddle,5650 SPRAGUE ST,,,2013.0,,POINT EMPTY
