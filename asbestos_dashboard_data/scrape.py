@@ -50,7 +50,7 @@ def load_chromedriver_path():
 
 
 @contextmanager
-def wait_for_new_window(driver, timeout=10):
+def wait_for_new_window(driver, timeout=30):
     handles_before = driver.window_handles
     yield
     WebDriverWait(driver, timeout).until(
