@@ -14,7 +14,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 
 from . import DATA_DIR
 from .data.asbestos import extract_asbestos_data
@@ -28,25 +27,6 @@ def cwd(path):
         yield
     finally:
         os.chdir(oldpwd)
-
-
-def load_chromedriver_path():
-    """Try to find the latest install chromedriver path"""
-
-    try:
-        # Try to install the path
-        path = ChromeDriverManager().install()
-    except:
-        chromedriver_path = Path("~/.wdm/drivers/chromedriver/mac64/").expanduser()
-        if not chromedriver_path.exists():
-            raise ValueError("Cannot find working chromedriver installation")
-
-        last_modified = sorted(
-            [f for f in chromedriver_path.glob("*")], key=os.path.getmtime
-        )[-1]
-        path = str(last_modified / "chromedriver")
-
-    return path
 
 
 @contextmanager
@@ -78,7 +58,7 @@ def get_webdriver(browser, dirname, debug=False):
         options.add_experimental_option("prefs", profile)
 
         # Initialize with options
-        service = Service(load_chromedriver_path())
+        service = Service()
         driver = webdriver.Chrome(service=service, options=options)
     else:
         raise ValueError("Unknown browser type, should be 'chrome'")
@@ -95,7 +75,6 @@ class DatabaseScraper:
     ndays: int = 7
 
     def __post_init__(self):
-
         today = datetime.datetime.today()  #
         d = datetime.timedelta(days=self.ndays)
         start = today - d
@@ -117,10 +96,8 @@ class DatabaseScraper:
         """Scrape remote PDFs."""
 
         with tempfile.TemporaryDirectory() as tmpdir:
-
             # Change the path
             with cwd(tmpdir):
-
                 # Initialize if we need to
                 if not hasattr(self, "driver"):
                     self._init(tmpdir)
@@ -140,11 +117,15 @@ class DatabaseScraper:
                     EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, link_text))
                 )
 
-                with wait_for_new_window(self.driver):
-                    a = self.driver.find_element(By.PARTIAL_LINK_TEXT, link_text)
-                    a.click()
+                # with wait_for_new_window(self.driver):
+                a = self.driver.find_element(By.PARTIAL_LINK_TEXT, link_text)
+                a.click()
 
-                self.driver.switch_to.window(self.driver.window_handles[1])
+                # Sleep
+                time.sleep(5)
+                # print(self.driver.window_handles)
+
+                # self.driver.switch_to.window(self.driver.window_handles[1])
                 WebDriverWait(self.driver, 10).until(
                     EC.visibility_of_element_located((By.CSS_SELECTOR, "#Param_0"))
                 )
@@ -176,7 +157,6 @@ class DatabaseScraper:
                         excel_files = list(download_dir.glob("*.xlsx"))
 
                     if len(excel_files):
-
                         # Extract the clean data
                         excel_file = excel_files[0]
                         clean_data = extract_asbestos_data(filename=excel_file)
@@ -208,14 +188,12 @@ class DatabaseScraper:
                     else:
                         raise ValueError("Excel download failed")
                 finally:
-
                     # Remove the file after we are done!
                     if excel_file is not None and excel_file.exists():
                         excel_file.unlink()
 
 
 def wait_for_element(driver, css_selector, time_limit=10):
-
     # Wait explicitly until search results load
     WebDriverWait(driver, time_limit).until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, css_selector)),
@@ -223,7 +201,6 @@ def wait_for_element(driver, css_selector, time_limit=10):
 
 
 def _get_url(driver, permit_number):
-
     start_url = "https://www.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&installationID=173&original_iid=0&original_contactID=0"
     driver.get(start_url)
 
@@ -267,12 +244,11 @@ def scrape_permit_urls(permit_numbers, log_freq=10):
     # Get the driver
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    service = Service(load_chromedriver_path())
+    service = Service()
     driver = webdriver.Chrome(service=service, options=options)
 
     out = []
     for i, permit_number in enumerate(permit_numbers):
-
         if i % log_freq == 0:
             logger.info(i)
 

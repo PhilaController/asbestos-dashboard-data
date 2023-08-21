@@ -35,7 +35,7 @@ def update(ndays=30):
 
     # Initialize the database scraper
     logger.info(f"Downloading raw data from past {ndays} days")
-    scraper = DatabaseScraper(ndays=ndays)
+    scraper = DatabaseScraper(ndays=ndays, debug=False)
     new_data = scraper.run()
 
     # Update any old data
@@ -53,7 +53,6 @@ def update(ndays=30):
 
     # Get the new permits
     if new_sel.sum():
-
         logger.info(f"New data includes {new_sel.sum()} entries")
         new_data = new_data.loc[new_sel]
         new_data.to_excel(DATA_DIR / "interim" / "new_data.xlsx", index=False)
@@ -83,7 +82,6 @@ def update(ndays=30):
 
 
 def _run_etl(df):
-
     # Save asbestos to AWS
     asbestos = pd.DataFrame(df.drop(labels=["geometry"] + SCHOOL_COLUMNS[3:], axis=1))
     upload_to_s3(asbestos.to_json(orient="records"), "asbestos-data.json")
